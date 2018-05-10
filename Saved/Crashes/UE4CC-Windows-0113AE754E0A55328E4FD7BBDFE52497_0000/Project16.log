@@ -1,0 +1,937 @@
+﻿Log file open, 04/03/18 02:53:04
+LogInit:Display: Running engine for game: Project16
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(113608580) SRandInit(113608580).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.086406
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.03-01.53.04:545][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.03-01.53.04:545][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.03-01.53.04:552][  0]LogInit: Computer: DESKTOP-P3QBLFC
+[2018.04.03-01.53.04:552][  0]LogInit: User: sound
+[2018.04.03-01.53.04:552][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.03-01.53.04:552][  0]LogInit: High frequency timer resolution =4.101568 MHz
+[2018.04.03-01.53.04:552][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.04.03-01.53.04:552][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.03-01.53.04:552][  0]LogMemory: Process Physical Memory: 273.84 MB used, 273.84 MB peak
+[2018.04.03-01.53.04:552][  0]LogMemory: Process Virtual Memory: 260.89 MB used, 260.89 MB peak
+[2018.04.03-01.53.04:552][  0]LogMemory: Physical Memory: 3851.43 MB used,  12485.13 MB free, 16336.55 MB total
+[2018.04.03-01.53.04:552][  0]LogMemory: Virtual Memory: 671.82 MB used,  12485.13 MB free, 134217728.00 MB total
+[2018.04.03-01.53.04:602][  0]LogInit: Using OS detected language (en-GB).
+[2018.04.03-01.53.04:602][  0]LogInit: Using OS detected locale (en-GB).
+[2018.04.03-01.53.04:604][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.04.03-01.53.05:211][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.03-01.53.05:245][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2018.04.03-01.53.05:245][  0]LogD3D11RHI:       8086/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.04.03-01.53.05:246][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.03-01.53.05:246][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.03-01.53.05:246][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.03-01.53.05:250][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.03-01.53.05:250][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.03-01.53.05:250][  0]LogWindows: EnumDisplayDevices:
+[2018.04.03-01.53.05:250][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2018.04.03-01.53.05:250][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.04.03-01.53.05:250][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.04.03-01.53.05:250][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.04.03-01.53.05:250][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.03-01.53.05:250][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2018.04.03-01.53.05:250][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.03-01.53.05:250][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.03-01.53.05:250][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.04.03-01.53.05:271][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.03-01.53.05:281][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.04.03-01.53.05:329][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/sound/Documents/Unreal Projects/Project16/Intermediate/Shaders/WorkingDirectory/3052/).
+[2018.04.03-01.53.05:329][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/sound/AppData/Local/Temp/UnrealShaderWorkingDir/6BACC3EE48234D7FB469B1849EE56FF9/'.
+[2018.04.03-01.53.05:329][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.04.03-01.53.06:092][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.03-01.53.06:127][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.04.03-01.53.06:162][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.03-01.53.06:197][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.04.03-01.53.06:232][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.04.03-01.53.06:267][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.03-01.53.06:305][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.03-01.53.06:342][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.03-01.53.06:374][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.04.03-01.53.06:408][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.04.03-01.53.06:442][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.03-01.53.06:477][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.03-01.53.06:511][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.03-01.53.06:545][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.03-01.53.06:579][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.03-01.53.06:649][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.03-01.53.06:649][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.03-01.53.06:677][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.04.03-01.53.06:749][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.04.03-01.53.06:769][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.04.03-01.53.06:803][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.03-01.53.06:840][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.03-01.53.06:874][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.03-01.53.06:908][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.04.03-01.53.06:908][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.04.03-01.53.07:257][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.04.03-01.53.07:315][  0]LogDerivedDataCache: Loaded boot cache 0.06s 90MB C:/Users/sound/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.04.03-01.53.07:315][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/sound/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.04.03-01.53.07:315][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/sound/Documents/Unreal Projects/Project16/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.03-01.53.07:315][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.03-01.53.07:315][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/sound/Documents/Unreal Projects/Project16/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.03-01.53.07:315][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.03-01.53.07:326][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.03-01.53.07:338][  0]LogDerivedDataCache: Using Local data cache path C:/Users/sound/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.03-01.53.07:344][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.03-01.53.07:345][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.03-01.53.07:345][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.03-01.53.07:345][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.03-01.53.07:563][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.03-01.53.07:604][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.04.03-01.53.07:712][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.03-01.53.07:743][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.03-01.53.07:778][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.03-01.53.07:778][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.04.03-01.53.07:778][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.04.03-01.53.08:128][  0]LogNetVersion: Project16 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2933532304)
+[2018.04.03-01.53.08:178][  0]LogAssetRegistry: FAssetRegistry took 0.0246 seconds to start up
+[2018.04.03-01.53.08:228][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.029536 seconds
+[2018.04.03-01.53.08:232][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.04.03-01.53.08:232][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2018.04.03-01.53.08:232][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.03-01.53.08:276][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.03-01.53.09:904][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.03-01.53.09:936][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.03-01.53.10:375][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.03-01.53.10:659][  0]SourceControl: Info Source control is disabled
+[2018.04.03-01.53.10:726][  0]SourceControl: Info Source control is disabled
+[2018.04.03-01.53.10:761][  0]SourceControl: Info Source control is disabled
+[2018.04.03-01.53.10:795][  0]SourceControl: Info Source control is disabled
+[2018.04.03-01.53.11:288][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.03-01.53.11:714][  0]LogEngine: Initializing Engine...
+[2018.04.03-01.53.11:714][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.04.03-01.53.11:836][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.03-01.53.11:836][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.03-01.53.11:924][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.03-01.53.11:933][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.03-01.53.12:032][  0]LogInit: FAudioDevice initialized.
+[2018.04.03-01.53.12:061][  0]LogDerivedDataCache: Saved boot cache 0.03s 90MB C:/Users/sound/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.04.03-01.53.12:071][  0]LogInit: Texture streaming: Enabled
+[2018.04.03-01.53.12:137][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.03-01.53.12:289][  0]LogInit: Transaction tracking system initialized
+[2018.04.03-01.53.12:507][  0]BlueprintLog: New page: Editor Load
+[2018.04.03-01.53.13:162][  0]LocalizationService: Info Localization service is disabled
+[2018.04.03-01.53.13:648][  0]LogConsoleResponse:Display: 
+[2018.04.03-01.53.13:752][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.03-01.53.13:752][  0]LogCook:Display: Mobile HDR setting 1
+[2018.04.03-01.53.14:479][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sound/Documents/Unreal Projects/Project16/Content/' took 0.01s
+[2018.04.03-01.53.14:479][  0]SourceControl: Info Source control is disabled
+[2018.04.03-01.53.14:480][  0]Cmd: MAP LOAD FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.03-01.53.14:480][  0]LightingResults: New page: Lighting Build
+[2018.04.03-01.53.14:509][  0]MapCheck: New page: Map Check
+[2018.04.03-01.53.14:509][  0]LightingResults: New page: Lighting Build
+[2018.04.03-01.53.14:530][  0]LogBlueprint:Warning: [UI] 'Image_91' variable not found. Base class was probably changed.
+[2018.04.03-01.53.14:530][  0]LogBlueprint:Warning: [UI] 'Image_51' variable not found. Base class was probably changed.
+[2018.04.03-01.53.14:530][  0]LogBlueprint:Warning: [UI] 'Image_173' variable not found. Base class was probably changed.
+[2018.04.03-01.53.14:569][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.04.03-01.53.14:572][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.03-01.53.14:579][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.03-01.53.14:611][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.377ms to complete.
+[2018.04.03-01.53.14:611][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.132
+[2018.04.03-01.53.14:710][  0]LogCollectionManager: Loaded 0 collections in 0.001281 seconds
+[2018.04.03-01.53.14:774][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sound/Documents/Unreal Projects/Project16/Saved/Collections/' took 0.01s
+[2018.04.03-01.53.14:774][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sound/Documents/Unreal Projects/Project16/Content/Developers/sound/Collections/' took 0.01s
+[2018.04.03-01.53.14:774][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sound/Documents/Unreal Projects/Project16/Content/Collections/' took 0.01s
+[2018.04.03-01.53.14:774][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.04.03-01.53.14:781][  0]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 2334 classes and 493 folders.
+[2018.04.03-01.53.14:827][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2018.04.03-01.53.14:856][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2018.04.03-01.53.14:887][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2018.04.03-01.53.14:939][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.04.03-01.53.14:943][  0]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.03-01.53.14:944][  0]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.03-01.53.14:948][  0]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.03-01.53.15:025][  0]LogRenderer: Reallocating scene render targets to support 232x300 NumSamples 1 (Frame:1).
+[2018.04.03-01.53.15:038][  0]LogRenderer: Reallocating scene render targets to support 920x576 NumSamples 1 (Frame:1).
+[2018.04.03-01.53.15:057][  0]LogSlate: Took 0.000111 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.03-01.53.15:106][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.04.03-01.53.15:158][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2018.04.03-01.53.15:158][  0]LogLoad: (Engine Initialization) Total time: 11.96 seconds
+[2018.04.03-01.53.15:158][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.04 seconds
+[2018.04.03-01.53.15:158][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.04.03-01.53.15:158][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.04.03-01.53.15:167][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.04.03-01.53.15:167][  0]LogOcInput: OculusInput pre-init called
+[2018.04.03-01.53.15:167][  0]LogHMD: Starting GearVRController plugin
+[2018.04.03-01.53.15:186][  0]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2018.04.03-01.53.15:203][  0]LogAssetRegistry: Asset discovery search completed in 7.0472 seconds
+[2018.04.03-01.53.15:204][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.04.03-01.53.15:204][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2018.04.03-01.53.15:207][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.03-01.53.19:019][450]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.03-01.53.19:045][450]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.03-01.53.19:045][450]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.03-01.53.19:045][450]PIE: New page: PIE session: Minimal_Default (3 Apr 2018 03:53:19)
+[2018.04.03-01.53.19:045][450]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.04.03-01.53.19:046][450]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001300s)
+[2018.04.03-01.53.19:047][450]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.04.03-01.53.19:047][450]LogPlayLevel: PIE: World Init took: (0.000390s)
+[2018.04.03-01.53.19:047][450]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.001818s)
+[2018.04.03-01.53.19:056][450]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.03-01.53.19:064][450]LogInit: FAudioDevice initialized.
+[2018.04.03-01.53.19:106][450]LogLoad: Game class is 'MyGameMode_C'
+[2018.04.03-01.53.19:107][450]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.04.03-02.53.19
+[2018.04.03-01.53.19:108][450]LogWorld: Bringing up level for play took: 0.000754
+[2018.04.03-01.53.19:138][450]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 11 classes and 0 folders.
+[2018.04.03-01.53.19:139][450]Cmd: r.SetRes 1920x1080w
+[2018.04.03-01.53.19:139][450]r.SetRes = "1920x1080w"
+[2018.04.03-01.53.19:139][450]LogBlueprintUserMessages: [Minimal_Default_C_0] Hello
+[2018.04.03-01.53.19:140][450]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.053
+[2018.04.03-01.53.19:141][450]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.03-01.53.23:635][988]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.03-01.53.23:665][988]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.03-01.53.26:193][290]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (body1)
+[2018.04.03-01.53.28:836][599]Cmd: DELETE
+[2018.04.03-01.53.28:836][599]Cmd: ACTOR DELETE
+[2018.04.03-01.53.28:839][599]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.03-01.53.28:845][599]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2018.04.03-01.53.30:741][827]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.03-01.53.30:752][827]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.03-01.53.30:752][827]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.03-01.53.30:752][827]PIE: New page: PIE session: Minimal_Default (3 Apr 2018 03:53:30)
+[2018.04.03-01.53.30:752][827]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.04.03-01.53.30:754][827]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001197s)
+[2018.04.03-01.53.30:754][827]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.04.03-01.53.30:754][827]LogPlayLevel: PIE: World Init took: (0.000434s)
+[2018.04.03-01.53.30:754][827]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.001758s)
+[2018.04.03-01.53.30:765][827]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.03-01.53.30:772][827]LogInit: FAudioDevice initialized.
+[2018.04.03-01.53.30:800][827]LogLoad: Game class is 'MyGameMode_C'
+[2018.04.03-01.53.30:801][827]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.04.03-02.53.30
+[2018.04.03-01.53.30:801][827]LogWorld: Bringing up level for play took: 0.000679
+[2018.04.03-01.53.30:802][827]Cmd: r.SetRes 1920x1080w
+[2018.04.03-01.53.30:802][827]r.SetRes = "1920x1080w"
+[2018.04.03-01.53.30:802][827]LogBlueprintUserMessages: [Minimal_Default_C_0] Hello
+[2018.04.03-01.53.30:803][827]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.716
+[2018.04.03-01.53.30:803][827]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.03-01.53.36:174][471]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.03-01.53.36:203][471]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.03-01.53.43:791][380]LogActor:Warning: GrissburgSceneController /Engine/Transient.World_3:PersistentLevel.GrissburgSceneController_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.04.03-01.55.21:295][745]LogSlate: Took 0.000109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.03-01.55.23:952][866]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/sound/Documents/Unreal Projects/Project16/Source/Project16/SceneController.h'
+[2018.04.03-01.55.23:967][866]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/sound/Documents/Unreal Projects/Project16/Source/Project16/SceneController.cpp'
+[2018.04.03-02.03.16:661][285]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.03-02.03.25:752][312]LogSavePackage: Save=61.43ms
+[2018.04.03-02.03.25:752][312]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/Minimal_Default_Auto12506CB2548CB5200BA503F909E49EAE3.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2018.04.03-02.03.25:753][312]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap
+[2018.04.03-02.03.25:756][312]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.085
+[2018.04.03-02.03.25:756][312]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.085
+[2018.04.03-02.24.50:095][487]LogSavePackage: Save=60.51ms
+[2018.04.03-02.24.50:095][487]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/Minimal_Default5A653AB1432A322E229A1BB9BEA32A3B.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.04.03-02.24.50:100][487]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/StarterContent/Maps/Minimal_Default.umap
+[2018.04.03-02.24.50:179][487]LogFileHelpers: Saving map 'Minimal_Default' took 0.198
+[2018.04.03-02.26.22:855][800]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/14" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/14.uasset" SILENT=true
+[2018.04.03-02.26.22:867][800]LogSavePackage: Save=10.60ms
+[2018.04.03-02.26.22:867][800]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/14374622E34CCA290C151AFEB6F62910D1.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/14.uasset'
+[2018.04.03-02.26.22:869][800]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/14.uasset
+[2018.04.03-02.26.22:871][800]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sven2" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/sven2.uasset" SILENT=true
+[2018.04.03-02.26.22:887][800]LogSavePackage: Save=2.96ms
+[2018.04.03-02.26.22:887][800]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/sven27244AAB84303A8C8D9B9DCBBD326BDA5.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/sven2.uasset'
+[2018.04.03-02.26.22:889][800]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/sven2.uasset
+[2018.04.03-02.26.28:854][505]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portrait/14" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/14.uasset" SILENT=true
+[2018.04.03-02.26.28:865][505]LogSavePackage: Save=10.33ms
+[2018.04.03-02.26.28:866][505]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/14E3EB3CF540AC8F7483EF9E8430FC0A20.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/14.uasset'
+[2018.04.03-02.26.28:867][505]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/14.uasset
+[2018.04.03-02.26.28:918][505]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sven2" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/sven2.uasset" SILENT=true
+[2018.04.03-02.26.28:928][505]LogSavePackage: Save=3.20ms
+[2018.04.03-02.26.28:928][505]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/sven27396E5B6401DC1140CC05AAA5B7D9526.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/sven2.uasset'
+[2018.04.03-02.26.28:929][505]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/sven2.uasset
+[2018.04.03-02.26.32:951][981]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portrait/Meshes/14" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Meshes/14.uasset" SILENT=true
+[2018.04.03-02.26.32:963][981]LogSavePackage: Save=10.31ms
+[2018.04.03-02.26.32:963][981]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/14AD44BB854C7D5C597BEF06BB9771B343.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Meshes/14.uasset'
+[2018.04.03-02.26.32:965][981]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Meshes/14.uasset
+[2018.04.03-02.26.33:015][981]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sven2" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/sven2.uasset" SILENT=true
+[2018.04.03-02.26.33:025][981]LogSavePackage: Save=3.19ms
+[2018.04.03-02.26.33:025][981]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/sven22578B1394A018EDD6ABCB4826E3B2F26.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/sven2.uasset'
+[2018.04.03-02.26.33:026][981]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/sven2.uasset
+[2018.04.03-02.27.51:863][349]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (burnheartdbody2)
+[2018.04.03-02.28.11:450][692]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portrait/burnheartdbody" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/burnheartdbody.uasset" SILENT=true
+[2018.04.03-02.28.11:462][692]LogSavePackage: Save=10.12ms
+[2018.04.03-02.28.11:462][692]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/burnheartdbody67946A7C40C64E5D1B28DA8424BD4DD6.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/burnheartdbody.uasset'
+[2018.04.03-02.28.11:464][692]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/burnheartdbody.uasset
+[2018.04.03-02.28.11:465][692]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/burnheartdbody" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/burnheartdbody.uasset" SILENT=true
+[2018.04.03-02.28.11:481][692]LogSavePackage: Save=3.03ms
+[2018.04.03-02.28.11:481][692]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/burnheartdbodyADA7009F4FB0D30F71B5A69F28D21054.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/burnheartdbody.uasset'
+[2018.04.03-02.28.11:484][692]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/burnheartdbody.uasset
+[2018.04.03-02.28.14:900][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portrait/Meshes/burnheartdbody" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Meshes/burnheartdbody.uasset" SILENT=true
+[2018.04.03-02.28.14:912][ 97]LogSavePackage: Save=10.04ms
+[2018.04.03-02.28.14:912][ 97]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/burnheartdbody8E3D650C4C6894C565E004B22F1B07B0.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Meshes/burnheartdbody.uasset'
+[2018.04.03-02.28.14:914][ 97]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Meshes/burnheartdbody.uasset
+[2018.04.03-02.28.14:965][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/burnheartdbody" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/burnheartdbody.uasset" SILENT=true
+[2018.04.03-02.28.14:975][ 97]LogSavePackage: Save=3.16ms
+[2018.04.03-02.28.14:975][ 97]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/burnheartdbody059D8E744A72AE51572CE699521E66BE.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/burnheartdbody.uasset'
+[2018.04.03-02.28.14:976][ 97]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/burnheartdbody.uasset
+[2018.04.03-02.28.29:916][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portrait/Meshes/2" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Meshes/2.uasset" SILENT=true
+[2018.04.03-02.28.29:928][495]LogSavePackage: Save=10.39ms
+[2018.04.03-02.28.29:928][495]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/2C77C975E4D4D880DD516288076060CBD.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Meshes/2.uasset'
+[2018.04.03-02.28.29:931][495]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Meshes/2.uasset
+[2018.04.03-02.28.29:981][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/burnheartdbody" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/burnheartdbody.uasset" SILENT=true
+[2018.04.03-02.28.29:991][495]LogSavePackage: Save=3.22ms
+[2018.04.03-02.28.29:991][495]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/burnheartdbodyB28787DC4836CF96F82E5EBE77A77062.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/burnheartdbody.uasset'
+[2018.04.03-02.28.29:992][495]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/burnheartdbody.uasset
+[2018.04.03-02.28.42:615][370]LogSavePackage: Save=59.74ms
+[2018.04.03-02.28.42:615][370]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/Minimal_Default2FA8EF344D8A19D0F282AD906634061A.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.04.03-02.28.42:618][370]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/StarterContent/Maps/Minimal_Default.umap
+[2018.04.03-02.28.42:636][370]LogFileHelpers: Saving map 'Minimal_Default' took 0.128
+[2018.04.03-02.53.40:227][190]Candidate modules for hot reload:
+[2018.04.03-02.53.40:227][190]  Project16
+[2018.04.03-02.53.40:227][190]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Project16 -ModuleWithSuffix Project16 3889 Win64 Development -editorrecompile -canskiplink "C:/Users/sound/Documents/Unreal Projects/Project16/Project16.uproject" ]
+[2018.04.03-02.53.40:274][190]Warning: Starting HotReload took  0.1s.
+[2018.04.03-02.54.07:392][441]CompilerResultsLog: New page: Compilation - 3 Apr 2018 04:54:07
+[2018.04.03-02.54.07:392][441]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.04.03-02.54.07:392][441]CompilerResultsLog: Info Parsing headers for Project16Editor
+[2018.04.03-02.54.07:392][441]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\sound\Documents\Unreal Projects\Project16\Project16.uproject" "C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\Project16Editor\Development\Project16Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.03-02.54.07:392][441]CompilerResultsLog: Info Reflection code generated for Project16Editor in 3.2708581 seconds
+[2018.04.03-02.54.07:392][441]CompilerResultsLog: Info Performing 5 actions (4 in parallel)
+[2018.04.03-02.54.07:392][441]CompilerResultsLog: Info GrissburgSceneController.cpp
+[2018.04.03-02.54.07:392][441]CompilerResultsLog: Info Project16.generated.cpp
+[2018.04.03-02.54.07:392][441]CompilerResultsLog: Info SceneController.cpp
+[2018.04.03-02.54.07:392][441]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(185) : warning C4996: 'ConstructObject': ConstructObject is deprecated. Use NewObject instead Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.04.03-02.54.07:392][441]CompilerResultsLog:Error: Error C:\Program Files\Epic Games\UE_4.16\Engine\Source\Runtime\CoreUObject\Public\UObject/Class.h(2938) : note: see declaration of 'ConstructObject'
+[2018.04.03-02.54.07:392][441]CompilerResultsLog: Info [4/5] Link UE4Editor-Project16-3889.dll
+[2018.04.03-02.54.07:392][441]CompilerResultsLog: Info [5/5] Link UE4Editor-Project16-3889.lib
+[2018.04.03-02.54.07:392][441]CompilerResultsLog: Info    Creating library C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Project16-3889.suppressed.lib and object C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Project16-3889.suppressed.exp
+[2018.04.03-02.54.07:392][441]CompilerResultsLog: Info    Creating library C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Project16-3889.lib and object C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Project16-3889.exp
+[2018.04.03-02.54.07:392][441]CompilerResultsLog: Info Total build time: 26.92 seconds (Local executor: 17.86 seconds)
+[2018.04.03-02.54.07:392][441]LogMainFrame: MainFrame: Module compiling took 27.168 seconds
+[2018.04.03-02.54.07:446][441]LogLinker:Warning: Can't find file '/Game/Portrait/Meshes/13'
+[2018.04.03-02.54.07:446][441]LogLinker:Warning: Can't find file '/Game/Portrait/Meshes/13'
+[2018.04.03-02.54.07:446][441]LogUObjectGlobals:Warning: Failed to find object 'StaticMesh None./Game/Portrait/Meshes/13'
+[2018.04.03-02.54.07:448][441]LogContentBrowser: Native class hierarchy updated for 'Project16' in 0.0013 seconds. Added 5 classes and 2 folders.
+[2018.04.03-02.54.07:449][441]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.03-02.54.07:500][441]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2336 classes and 497 folders.
+[2018.04.03-02.54.07:501][441]Display: HotReload took 27.3s.
+[2018.04.03-03.02.25:920][939]LogMaterial: Missing cached shader map for material TargetMaterial1, compiling. 
+[2018.04.03-03.02.25:989][939]LogMaterial: Missing cached shader map for material TargetMaterial1, compiling. 
+[2018.04.03-03.02.26:000][939]LogMaterial: Missing cached shader map for material TargetMaterial1, compiling. 
+[2018.04.03-03.02.26:032][939]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.03-03.02.26:034][939]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.04.03-03.02.26:037][939]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.04.03-03.02.26:041][939]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.04.03-03.02.26:044][939]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2018.04.03-03.02.26:051][939]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.03-03.02.26:940][ 19]MaterialEditorStats: Info Default UI Pixel Shader: 35 instructions
+[2018.04.03-03.02.26:940][ 19]MaterialEditorStats: Info Default UI Vertex Shader: 20 instructions
+[2018.04.03-03.02.26:941][ 19]MaterialEditorStats: Info Instanced UI Vertex Shader: 20 instructions
+[2018.04.03-03.02.26:941][ 19]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.03-03.02.26:941][ 19]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.03-03.02.56:405][545]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.03-03.03.05:122][590]LogMaterial: Missing cached shader map for material TargetMaterial1, compiling. 
+[2018.04.03-03.03.05:137][590]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.04.03-03.03.06:056][683]MaterialEditorStats: Info Default UI Pixel Shader: 35 instructions
+[2018.04.03-03.03.06:056][683]MaterialEditorStats: Info Default UI Vertex Shader: 20 instructions
+[2018.04.03-03.03.06:056][683]MaterialEditorStats: Info Instanced UI Vertex Shader: 20 instructions
+[2018.04.03-03.03.06:056][683]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.03-03.03.06:056][683]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.03-03.03.13:156][529]LogMaterial: Missing cached shader map for material TargetMaterial1, compiling. 
+[2018.04.03-03.03.13:171][529]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.04.03-03.03.13:757][583]MaterialEditorStats: Info Default UI Pixel Shader: 35 instructions
+[2018.04.03-03.03.13:757][583]MaterialEditorStats: Info Default UI Vertex Shader: 20 instructions
+[2018.04.03-03.03.13:757][583]MaterialEditorStats: Info Instanced UI Vertex Shader: 20 instructions
+[2018.04.03-03.03.13:757][583]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.03-03.03.13:757][583]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.03-03.03.16:150][869]LogMaterialEditor: Applying material TargetMaterial1
+[2018.04.03-03.03.16:552][869]LogMaterial: Missing cached shader map for material TargetMaterial1, compiling. 
+[2018.04.03-03.03.16:586][869]LogMaterial: Missing cached shader map for material TargetMaterial1, compiling. 
+[2018.04.03-03.03.16:611][869]LogMaterial: Missing cached shader map for material TargetMaterial1, compiling. 
+[2018.04.03-03.03.16:638][869]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2018.04.03-03.03.18:293][ 43]MaterialEditorStats: Info Default UI Pixel Shader: 35 instructions
+[2018.04.03-03.03.18:293][ 43]MaterialEditorStats: Info Default UI Vertex Shader: 20 instructions
+[2018.04.03-03.03.18:293][ 43]MaterialEditorStats: Info Instanced UI Vertex Shader: 20 instructions
+[2018.04.03-03.03.18:293][ 43]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.03-03.03.18:293][ 43]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.03-03.03.59:261][950]LogMaterial: Missing cached shader map for material TargetMaterial1, compiling. 
+[2018.04.03-03.03.59:274][950]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.03-03.04.00:111][ 29]MaterialEditorStats: Info Default UI Pixel Shader: 35 instructions
+[2018.04.03-03.04.00:111][ 29]MaterialEditorStats: Info Default UI Vertex Shader: 20 instructions
+[2018.04.03-03.04.00:111][ 29]MaterialEditorStats: Info Instanced UI Vertex Shader: 20 instructions
+[2018.04.03-03.04.00:111][ 29]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.03-03.04.00:111][ 29]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.03-03.04.12:736][539]LogMaterial: Missing cached shader map for material TargetMaterial1, compiling. 
+[2018.04.03-03.04.12:743][539]LogMaterial: Missing cached shader map for material TargetMaterial1, compiling. 
+[2018.04.03-03.04.13:115][573]MaterialEditorStats: Info Default UI Pixel Shader: 31 instructions
+[2018.04.03-03.04.13:115][573]MaterialEditorStats: Info Default UI Vertex Shader: 20 instructions
+[2018.04.03-03.04.13:115][573]MaterialEditorStats: Info Instanced UI Vertex Shader: 20 instructions
+[2018.04.03-03.04.13:115][573]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.04.03-03.04.13:115][573]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.03-03.04.20:244][427]LogMaterial: Missing cached shader map for material TargetMaterial1, compiling. 
+[2018.04.03-03.04.20:634][464]MaterialEditorStats: Info Default UI Pixel Shader: 41 instructions
+[2018.04.03-03.04.20:634][464]MaterialEditorStats: Info Default UI Vertex Shader: 20 instructions
+[2018.04.03-03.04.20:634][464]MaterialEditorStats: Info Instanced UI Vertex Shader: 20 instructions
+[2018.04.03-03.04.20:634][464]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.03-03.04.20:634][464]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.03-03.04.25:621][ 61]LogMaterial: Missing cached shader map for material TargetMaterial1, compiling. 
+[2018.04.03-03.04.26:003][ 98]MaterialEditorStats: Info Default UI Pixel Shader: 28 instructions
+[2018.04.03-03.04.26:003][ 98]MaterialEditorStats: Info Default UI Vertex Shader: 20 instructions
+[2018.04.03-03.04.26:003][ 98]MaterialEditorStats: Info Instanced UI Vertex Shader: 20 instructions
+[2018.04.03-03.04.26:003][ 98]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.04.03-03.04.33:053][942]LogMaterial: Missing cached shader map for material TargetMaterial1, compiling. 
+[2018.04.03-03.04.33:066][942]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.03-03.04.33:427][974]MaterialEditorStats: Info Default UI Pixel Shader: 31 instructions
+[2018.04.03-03.04.33:427][974]MaterialEditorStats: Info Default UI Vertex Shader: 20 instructions
+[2018.04.03-03.04.33:427][974]MaterialEditorStats: Info Instanced UI Vertex Shader: 20 instructions
+[2018.04.03-03.04.33:427][974]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.04.03-03.04.33:427][974]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.03-03.04.40:650][838]LogMaterial: Missing cached shader map for material TargetMaterial1, compiling. 
+[2018.04.03-03.04.40:661][838]LogMaterial: Missing cached shader map for material TargetMaterial1, compiling. 
+[2018.04.03-03.04.41:265][893]MaterialEditorStats: Info Default UI Pixel Shader: 35 instructions
+[2018.04.03-03.04.41:265][893]MaterialEditorStats: Info Default UI Vertex Shader: 20 instructions
+[2018.04.03-03.04.41:265][893]MaterialEditorStats: Info Instanced UI Vertex Shader: 20 instructions
+[2018.04.03-03.04.41:265][893]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.03-03.04.41:265][893]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.03-03.04.43:004][101]LogMaterialEditor: Applying material TargetMaterial1
+[2018.04.03-03.04.43:399][101]LogMaterial: Missing cached shader map for material TargetMaterial1, compiling. 
+[2018.04.03-03.04.43:431][101]LogMaterial: Missing cached shader map for material TargetMaterial1, compiling. 
+[2018.04.03-03.04.43:451][101]LogMaterial: Missing cached shader map for material TargetMaterial1, compiling. 
+[2018.04.03-03.04.43:478][101]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2018.04.03-03.04.44:490][197]LogMaterialEditor: Saving and Compiling material TargetMaterial1
+[2018.04.03-03.04.45:032][197]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.03-03.04.45:041][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TargetMaterial1" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/TargetMaterial1.uasset" SILENT=true
+[2018.04.03-03.04.45:066][197]LogSavePackage: Save=12.15ms
+[2018.04.03-03.04.45:066][197]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/TargetMaterial18CD2D0524E1E65B66623629661B213D1.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/TargetMaterial1.uasset'
+[2018.04.03-03.04.45:068][197]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/TargetMaterial1.uasset
+[2018.04.03-03.04.45:072][197]MaterialEditorStats: Info Default UI Pixel Shader: 35 instructions
+[2018.04.03-03.04.45:072][197]MaterialEditorStats: Info Default UI Vertex Shader: 20 instructions
+[2018.04.03-03.04.45:072][197]MaterialEditorStats: Info Instanced UI Vertex Shader: 20 instructions
+[2018.04.03-03.04.45:072][197]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.03-03.04.45:072][197]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.03-03.04.57:960][736]LogMaterial: Missing cached shader map for material TargetMaterial1, compiling. 
+[2018.04.03-03.04.57:975][736]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.03-03.04.58:688][799]MaterialEditorStats: Info Default UI Pixel Shader: 35 instructions
+[2018.04.03-03.04.58:688][799]MaterialEditorStats: Info Default UI Vertex Shader: 20 instructions
+[2018.04.03-03.04.58:688][799]MaterialEditorStats: Info Instanced UI Vertex Shader: 20 instructions
+[2018.04.03-03.04.58:688][799]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.03-03.04.58:688][799]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.03-03.04.59:174][856]LogMaterial: Missing cached shader map for material TargetMaterial1, compiling. 
+[2018.04.03-03.04.59:187][856]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.03-03.04.59:777][909]MaterialEditorStats: Info Default UI Pixel Shader: 35 instructions
+[2018.04.03-03.04.59:777][909]MaterialEditorStats: Info Default UI Vertex Shader: 20 instructions
+[2018.04.03-03.04.59:777][909]MaterialEditorStats: Info Instanced UI Vertex Shader: 20 instructions
+[2018.04.03-03.04.59:777][909]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.03-03.04.59:777][909]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.03-03.05.19:306][909]LogMaterial: Missing cached shader map for material TargetMaterial1, compiling. 
+[2018.04.03-03.05.19:337][909]LogMaterial: Missing cached shader map for material TargetMaterial1, compiling. 
+[2018.04.03-03.05.19:359][909]LogMaterial: Missing cached shader map for material TargetMaterial1, compiling. 
+[2018.04.03-03.05.19:385][909]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2018.04.03-03.05.30:198][188]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portrait/TargetMaterial1" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/TargetMaterial1.uasset" SILENT=true
+[2018.04.03-03.05.30:211][188]LogSavePackage: Save=11.83ms
+[2018.04.03-03.05.30:212][188]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/TargetMaterial18E827FDD497EF947371B6994BB2C8D6D.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/TargetMaterial1.uasset'
+[2018.04.03-03.05.30:214][188]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/TargetMaterial1.uasset
+[2018.04.03-03.05.33:867][616]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portrait/Textures/TargetMaterial1" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Textures/TargetMaterial1.uasset" SILENT=true
+[2018.04.03-03.05.33:880][616]LogSavePackage: Save=11.82ms
+[2018.04.03-03.05.33:880][616]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/TargetMaterial127F8FAEA4722D860A8B2808125B5E5DE.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Textures/TargetMaterial1.uasset'
+[2018.04.03-03.05.33:882][616]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Textures/TargetMaterial1.uasset
+[2018.04.03-03.06.33:151][878]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portrait/MatInst1" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/MatInst1.uasset" SILENT=true
+[2018.04.03-03.06.33:164][878]LogSavePackage: Save=11.13ms
+[2018.04.03-03.06.33:164][878]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/MatInst18508EDC547D746C39B96B9BB53081CE5.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/MatInst1.uasset'
+[2018.04.03-03.06.33:166][878]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/MatInst1.uasset
+[2018.04.03-03.06.33:220][878]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portrait/Meshes/14" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Meshes/14.uasset" SILENT=true
+[2018.04.03-03.06.33:238][878]LogSavePackage: Save=4.73ms
+[2018.04.03-03.06.33:238][878]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/1435061C794C588F9D907BACBFDC187401.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Meshes/14.uasset'
+[2018.04.03-03.06.33:239][878]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Meshes/14.uasset
+[2018.04.03-03.06.37:093][336]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portrait/Textures/MatInst1" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Textures/MatInst1.uasset" SILENT=true
+[2018.04.03-03.06.37:105][336]LogSavePackage: Save=10.56ms
+[2018.04.03-03.06.37:105][336]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/MatInst1A7E7F4554373BD334CCE18BFA80985FC.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Textures/MatInst1.uasset'
+[2018.04.03-03.06.37:107][336]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Textures/MatInst1.uasset
+[2018.04.03-03.06.37:158][336]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portrait/Meshes/14" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Meshes/14.uasset" SILENT=true
+[2018.04.03-03.06.37:170][336]LogSavePackage: Save=4.61ms
+[2018.04.03-03.06.37:170][336]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/14F0EF9B484D9CB830F7B1049CD8A5344D.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Meshes/14.uasset'
+[2018.04.03-03.06.37:171][336]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Meshes/14.uasset
+[2018.04.03-03.07.07:525][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portrait/MB_HEAD" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/MB_HEAD.uasset" SILENT=true
+[2018.04.03-03.07.07:532][710]LogSavePackage: Save=5.56ms
+[2018.04.03-03.07.07:532][710]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/MB_HEADA3C77DDE4BCABF8A838650B5364FE20C.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/MB_HEAD.uasset'
+[2018.04.03-03.07.07:534][710]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/MB_HEAD.uasset
+[2018.04.03-03.07.11:405][164]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portrait/Textures/MB_HEAD" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Textures/MB_HEAD.uasset" SILENT=true
+[2018.04.03-03.07.11:412][164]LogSavePackage: Save=5.18ms
+[2018.04.03-03.07.11:412][164]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/MB_HEAD5BCA10C3486342A59AA50BA7072F036F.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Textures/MB_HEAD.uasset'
+[2018.04.03-03.07.11:414][164]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Textures/MB_HEAD.uasset
+[2018.04.03-03.07.22:411][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portrait/SC_HEAD" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/SC_HEAD.uasset" SILENT=true
+[2018.04.03-03.07.22:417][471]LogSavePackage: Save=5.05ms
+[2018.04.03-03.07.22:417][471]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/SC_HEAD742D9C7A4736557ECB4B7C884C555014.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/SC_HEAD.uasset'
+[2018.04.03-03.07.22:419][471]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/SC_HEAD.uasset
+[2018.04.03-03.07.22:478][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Group01Mat_ncl1_1" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Group01Mat_ncl1_1.uasset" SILENT=true
+[2018.04.03-03.07.22:508][471]LogSavePackage: Save=15.95ms
+[2018.04.03-03.07.22:508][471]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/Group01Mat_ncl1_1DF6BE46544D0CC9CD5B2DB8C28B53885.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Group01Mat_ncl1_1.uasset'
+[2018.04.03-03.07.22:509][471]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Group01Mat_ncl1_1.uasset
+[2018.04.03-03.07.25:756][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portrait/Textures/SC_HEAD" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Textures/SC_HEAD.uasset" SILENT=true
+[2018.04.03-03.07.25:778][855]LogSavePackage: Save=20.98ms
+[2018.04.03-03.07.25:778][855]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/SC_HEADAE0BB70644291ACC4ADA2BB149B63ADE.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Textures/SC_HEAD.uasset'
+[2018.04.03-03.07.25:781][855]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Textures/SC_HEAD.uasset
+[2018.04.03-03.07.25:832][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Group01Mat_ncl1_1" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Group01Mat_ncl1_1.uasset" SILENT=true
+[2018.04.03-03.07.25:848][855]LogSavePackage: Save=9.36ms
+[2018.04.03-03.07.25:848][855]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/Group01Mat_ncl1_151D9ED46427186A1EBDDD3A7D761FD59.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Group01Mat_ncl1_1.uasset'
+[2018.04.03-03.07.25:849][855]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Group01Mat_ncl1_1.uasset
+[2018.04.03-03.07.52:133][998]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portrait/SC_BODY" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/SC_BODY.uasset" SILENT=true
+[2018.04.03-03.07.52:139][998]LogSavePackage: Save=4.53ms
+[2018.04.03-03.07.52:139][998]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/SC_BODY89564015495D7C5F4C6E2D98C98DDFCC.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/SC_BODY.uasset'
+[2018.04.03-03.07.52:141][998]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/SC_BODY.uasset
+[2018.04.03-03.07.52:200][998]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bodyMat_ncl1_1" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/bodyMat_ncl1_1.uasset" SILENT=true
+[2018.04.03-03.07.52:221][998]LogSavePackage: Save=11.67ms
+[2018.04.03-03.07.52:221][998]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/bodyMat_ncl1_1758751CC4EC12B362984D5ABF361C639.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/bodyMat_ncl1_1.uasset'
+[2018.04.03-03.07.52:223][998]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/bodyMat_ncl1_1.uasset
+[2018.04.03-03.07.54:741][295]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portrait/Textures/SC_BODY" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Textures/SC_BODY.uasset" SILENT=true
+[2018.04.03-03.07.54:747][295]LogSavePackage: Save=4.29ms
+[2018.04.03-03.07.54:747][295]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/SC_BODY6CB7E8EB441C6BE907D689B464200F23.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Textures/SC_BODY.uasset'
+[2018.04.03-03.07.54:749][295]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Textures/SC_BODY.uasset
+[2018.04.03-03.07.54:800][295]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bodyMat_ncl1_1" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/bodyMat_ncl1_1.uasset" SILENT=true
+[2018.04.03-03.07.54:811][295]LogSavePackage: Save=4.48ms
+[2018.04.03-03.07.54:811][295]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/bodyMat_ncl1_11CCA3EF34ABD1423E2F02A9E3C24516B.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/bodyMat_ncl1_1.uasset'
+[2018.04.03-03.07.54:812][295]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/bodyMat_ncl1_1.uasset
+[2018.04.03-03.08.04:452][444]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portrait/SC_BITS" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/SC_BITS.uasset" SILENT=true
+[2018.04.03-03.08.04:457][444]LogSavePackage: Save=4.39ms
+[2018.04.03-03.08.04:458][444]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/SC_BITS40ACC5074D1C79BC4D42F3AEF27DA3C9.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/SC_BITS.uasset'
+[2018.04.03-03.08.04:460][444]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/SC_BITS.uasset
+[2018.04.03-03.08.04:528][444]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Group01Mat_ncl1_1" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Group01Mat_ncl1_1.uasset" SILENT=true
+[2018.04.03-03.08.04:562][444]LogSavePackage: Save=26.13ms
+[2018.04.03-03.08.04:562][444]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/Group01Mat_ncl1_1E279347D40B617328E3CA58E5375BC31.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Group01Mat_ncl1_1.uasset'
+[2018.04.03-03.08.04:563][444]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Group01Mat_ncl1_1.uasset
+[2018.04.03-03.08.07:705][816]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portrait/Textures/SC_BITS" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Textures/SC_BITS.uasset" SILENT=true
+[2018.04.03-03.08.07:710][816]LogSavePackage: Save=4.37ms
+[2018.04.03-03.08.07:711][816]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/SC_BITS055293894E29F4E082D7069FA7833D90.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Textures/SC_BITS.uasset'
+[2018.04.03-03.08.07:713][816]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Textures/SC_BITS.uasset
+[2018.04.03-03.08.07:764][816]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Group01Mat_ncl1_1" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Group01Mat_ncl1_1.uasset" SILENT=true
+[2018.04.03-03.08.07:781][816]LogSavePackage: Save=9.02ms
+[2018.04.03-03.08.07:781][816]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/Group01Mat_ncl1_197FA4C31452144BFDD4C2497F62C2002.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Group01Mat_ncl1_1.uasset'
+[2018.04.03-03.08.07:782][816]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Group01Mat_ncl1_1.uasset
+[2018.04.03-03.10.35:834][580]LogMaterial: Missing cached shader map for material Group01Mat_ncl1_1, compiling. 
+[2018.04.03-03.10.35:904][580]LogMaterial: Missing cached shader map for material Group01Mat_ncl1_1, compiling. 
+[2018.04.03-03.10.35:917][580]LogMaterial: Missing cached shader map for material Group01Mat_ncl1_1, compiling. 
+[2018.04.03-03.10.35:952][580]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.04.03-03.10.35:955][580]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.04.03-03.10.35:959][580]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2018.04.03-03.10.35:962][580]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.04.03-03.10.35:966][580]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObjectParameter_1, compiling. 
+[2018.04.03-03.10.35:970][580]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.04.03-03.10.37:441][702]MaterialEditorStats: Info Base pass shader: 102 instructions
+[2018.04.03-03.10.37:441][702]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.03-03.10.37:441][702]MaterialEditorStats: Info Texture samplers: 5/16
+[2018.04.03-03.10.37:441][702]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.03-03.10.39:917][978]LogMaterial: Missing cached shader map for material Group01Mat_ncl1_1, compiling. 
+[2018.04.03-03.10.40:783][ 56]MaterialEditorStats: Info Base pass shader: 102 instructions
+[2018.04.03-03.10.40:783][ 56]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.03-03.10.40:783][ 56]MaterialEditorStats: Info Texture samplers: 5/16
+[2018.04.03-03.10.40:783][ 56]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.03-03.11.01:728][560]LogMaterial: Missing cached shader map for material Group01Mat_ncl1_1, compiling. 
+[2018.04.03-03.11.01:728][560]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Group01Mat_ncl1_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.03-03.11.01:728][560]LogMaterial:Warning: 	(Node TextureSampleParameter2D) TextureSampleParameter> Sampler type is Normal, should be Color for /Game/Portrait/Textures/SC_HEAD.SC_HEAD
+[2018.04.03-03.11.01:732][560]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.04.03-03.11.01:755][560]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameter2D) TextureSampleParameter> Sampler type is Normal, should be Color for /Game/Portrait/Textures/SC_HEAD.SC_HEAD
+[2018.04.03-03.11.11:975][782]LogMaterial: Missing cached shader map for material Group01Mat_ncl1_1, compiling. 
+[2018.04.03-03.11.11:988][782]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.04.03-03.11.13:152][890]MaterialEditorStats: Info Base pass shader: 102 instructions
+[2018.04.03-03.11.13:152][890]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.03-03.11.13:152][890]MaterialEditorStats: Info Texture samplers: 5/16
+[2018.04.03-03.11.13:152][890]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.03-03.11.15:382][156]LogMaterial: Missing cached shader map for material Group01Mat_ncl1_1, compiling. 
+[2018.04.03-03.11.15:382][156]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Group01Mat_ncl1_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.03-03.11.15:382][156]LogMaterial:Warning: 	(Node TextureSampleParameter2D) TextureSampleParameter> Sampler type is Linear Color, should be Color for /Game/Portrait/Textures/SC_HEAD.SC_HEAD
+[2018.04.03-03.11.15:386][156]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.04.03-03.11.15:409][156]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameter2D) TextureSampleParameter> Sampler type is Linear Color, should be Color for /Game/Portrait/Textures/SC_HEAD.SC_HEAD
+[2018.04.03-03.11.20:030][706]LogMaterial: Missing cached shader map for material Group01Mat_ncl1_1, compiling. 
+[2018.04.03-03.11.20:044][706]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.04.03-03.11.20:931][784]MaterialEditorStats: Info Base pass shader: 102 instructions
+[2018.04.03-03.11.20:931][784]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.03-03.11.20:931][784]MaterialEditorStats: Info Texture samplers: 5/16
+[2018.04.03-03.11.20:931][784]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.03-03.11.22:124][926]LogMaterialEditor: Applying material Group01Mat_ncl1_1
+[2018.04.03-03.11.22:520][926]LogMaterial: Missing cached shader map for material Group01Mat_ncl1_1, compiling. 
+[2018.04.03-03.11.22:557][926]LogMaterial: Missing cached shader map for material Group01Mat_ncl1_1, compiling. 
+[2018.04.03-03.11.22:600][926]LogMaterial: Missing cached shader map for material Group01Mat_ncl1_1, compiling. 
+[2018.04.03-03.11.22:639][926]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Group01Mat_ncl1_1, compiling. 
+[2018.04.03-03.11.23:279][926]TextureStreamingBuild:Display: Compiling optional shaders took 0.645 seconds.
+[2018.04.03-03.11.24:896][ 85]LogMaterialEditor: Saving and Compiling material Group01Mat_ncl1_1
+[2018.04.03-03.11.25:075][ 85]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Group01Mat_ncl1_1" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Group01Mat_ncl1_1.uasset" SILENT=true
+[2018.04.03-03.11.25:102][ 85]LogSavePackage: Save=16.09ms
+[2018.04.03-03.11.25:102][ 85]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/Group01Mat_ncl1_1D9CBC0364186865F538AF1950ECF211D.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Group01Mat_ncl1_1.uasset'
+[2018.04.03-03.11.25:104][ 85]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Group01Mat_ncl1_1.uasset
+[2018.04.03-03.11.25:106][ 85]MaterialEditorStats: Info Base pass shader: 102 instructions
+[2018.04.03-03.11.25:106][ 85]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.03-03.11.25:107][ 85]MaterialEditorStats: Info Texture samplers: 5/16
+[2018.04.03-03.11.25:107][ 85]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.03-03.11.32:103][909]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2018.04.03-03.19.23:512][283]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.008
+[2018.04.03-03.19.23:513][283]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MaterialInst2] ([1] browsable assets)...
+[2018.04.03-03.19.23:526][283]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/MaterialInst2.MaterialInst2]
+[2018.04.03-03.19.23:526][283]OBJ SavePackage: Finished generating thumbnails for package [/Game/MaterialInst2]
+[2018.04.03-03.19.23:526][283]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MaterialInst2" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/Autosaves/Game/MaterialInst2_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.04.03-03.19.23:538][283]LogSavePackage: Save=10.97ms
+[2018.04.03-03.19.23:538][283]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/MaterialInst2_Auto2928ED5E54EA77719673F9D9353EC3FEE.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/Autosaves/Game/MaterialInst2_Auto2.uasset'
+[2018.04.03-03.19.23:539][283]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/Autosaves/Game/MaterialInst2_Auto2.uasset
+[2018.04.03-03.19.23:539][283]LogFileHelpers: Auto-saving content packages took 0.027
+[2018.04.03-03.22.11:675][350]LogMaterial: Missing cached shader map for material bodyMat_ncl1_1, compiling. 
+[2018.04.03-03.22.11:729][350]LogMaterial: Missing cached shader map for material bodyMat_ncl1_1, compiling. 
+[2018.04.03-03.22.11:739][350]LogMaterial: Missing cached shader map for material bodyMat_ncl1_1, compiling. 
+[2018.04.03-03.22.11:777][350]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.04.03-03.22.12:969][459]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.04.03-03.22.12:969][459]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.03-03.22.12:969][459]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.04.03-03.22.12:969][459]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.03-03.22.24:153][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portrait/bodyMat_ncl1_1" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/bodyMat_ncl1_1.uasset" SILENT=true
+[2018.04.03-03.22.24:166][787]LogSavePackage: Save=11.26ms
+[2018.04.03-03.22.24:166][787]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/bodyMat_ncl1_14D1AD2E94399C7F7CB39988AB03C89C6.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/bodyMat_ncl1_1.uasset'
+[2018.04.03-03.22.24:169][787]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/bodyMat_ncl1_1.uasset
+[2018.04.03-03.22.24:223][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portrait/Meshes/2" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Meshes/2.uasset" SILENT=true
+[2018.04.03-03.22.24:244][787]LogSavePackage: Save=5.41ms
+[2018.04.03-03.22.24:244][787]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/2CB1B71E940B4B979EA0E4B8AF79A0E8B.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Meshes/2.uasset'
+[2018.04.03-03.22.24:245][787]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Meshes/2.uasset
+[2018.04.03-03.22.27:510][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portrait/Textures/bodyMat_ncl1_1" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Textures/bodyMat_ncl1_1.uasset" SILENT=true
+[2018.04.03-03.22.27:523][174]LogSavePackage: Save=11.41ms
+[2018.04.03-03.22.27:523][174]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/bodyMat_ncl1_142484546467F8506F9D3819EEE1E6144.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Textures/bodyMat_ncl1_1.uasset'
+[2018.04.03-03.22.27:525][174]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Textures/bodyMat_ncl1_1.uasset
+[2018.04.03-03.22.27:578][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portrait/Meshes/2" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Meshes/2.uasset" SILENT=true
+[2018.04.03-03.22.27:590][174]LogSavePackage: Save=4.72ms
+[2018.04.03-03.22.27:590][174]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/2745D31424982DCF4D55752939AB93283.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Meshes/2.uasset'
+[2018.04.03-03.22.27:591][174]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Meshes/2.uasset
+[2018.04.03-03.24.19:148][577]LogRenderer: Reallocating scene render targets to support 972x576 NumSamples 1 (Frame:1).
+[2018.04.03-03.25.49:093][160]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.03-03.25.49:153][160]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.03-03.25.49:164][160]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.03-03.25.49:196][160]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.03-03.25.49:199][160]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.04.03-03.25.49:202][160]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.04.03-03.25.49:206][160]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.04.03-03.25.49:209][160]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2018.04.03-03.25.50:045][248]MaterialEditorStats: Info Default UI Pixel Shader: 35 instructions
+[2018.04.03-03.25.50:045][248]MaterialEditorStats: Info Default UI Vertex Shader: 20 instructions
+[2018.04.03-03.25.50:045][248]MaterialEditorStats: Info Instanced UI Vertex Shader: 20 instructions
+[2018.04.03-03.25.50:045][248]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.03-03.25.50:045][248]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.03-03.28.36:528][630]LogMaterial: Missing cached shader map for material TargetMaterial2, compiling. 
+[2018.04.03-03.28.41:485][221]LogMaterial: Missing cached shader map for material TargetMaterial3, compiling. 
+[2018.04.03-03.28.52:147][498]LogMaterial: Missing cached shader map for material TargetMaterial4, compiling. 
+[2018.04.03-03.29.16:523][399]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2018.04.03-03.29.16:577][399]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2018.04.03-03.29.16:587][399]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2018.04.03-03.29.16:625][399]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.03-03.29.16:628][399]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.04.03-03.29.16:631][399]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.04.03-03.29.16:634][399]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.04.03-03.29.16:637][399]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2018.04.03-03.29.17:474][485]MaterialEditorStats: Info Default UI Pixel Shader: 35 instructions
+[2018.04.03-03.29.17:474][485]MaterialEditorStats: Info Default UI Vertex Shader: 20 instructions
+[2018.04.03-03.29.17:474][485]MaterialEditorStats: Info Instanced UI Vertex Shader: 20 instructions
+[2018.04.03-03.29.17:474][485]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.03-03.29.17:474][485]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.03-03.29.46:671][965]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portrait/RenderTarget1" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/RenderTarget1.uasset" SILENT=true
+[2018.04.03-03.29.46:678][965]LogSavePackage: Save=5.80ms
+[2018.04.03-03.29.46:678][965]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/RenderTarget1B8A2D37E45B1D9564AEE02869C8FE593.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/RenderTarget1.uasset'
+[2018.04.03-03.29.46:681][965]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/RenderTarget1.uasset
+[2018.04.03-03.29.46:682][965]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RenderTarget1" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/RenderTarget1.uasset" SILENT=true
+[2018.04.03-03.29.46:699][965]LogSavePackage: Save=3.06ms
+[2018.04.03-03.29.46:699][965]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/RenderTarget1732837624DAB43B53506DF93950AAC30.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/RenderTarget1.uasset'
+[2018.04.03-03.29.46:701][965]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/RenderTarget1.uasset
+[2018.04.03-03.30.08:875][619]LogSavePackage: Save=6.74ms
+[2018.04.03-03.30.08:875][619]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/RenderTarget182E68A9547C6043C4459C4BAC3DE095F.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Render_Targets/RenderTarget1.uasset'
+[2018.04.03-03.30.08:877][619]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Render_Targets/RenderTarget1.uasset
+[2018.04.03-03.30.08:931][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RenderTarget1" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/RenderTarget1.uasset" SILENT=true
+[2018.04.03-03.30.08:941][619]LogSavePackage: Save=3.20ms
+[2018.04.03-03.30.08:941][619]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/RenderTarget1C10590454456D5E01B4D82B9B9C43847.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/RenderTarget1.uasset'
+[2018.04.03-03.30.08:942][619]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/RenderTarget1.uasset
+[2018.04.03-03.30.20:034][946]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2018.04.03-03.30.20:088][946]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2018.04.03-03.30.20:099][946]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2018.04.03-03.30.20:138][946]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.03-03.30.20:141][946]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.04.03-03.30.20:144][946]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.04.03-03.30.20:147][946]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.04.03-03.30.20:151][946]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2018.04.03-03.30.20:979][ 29]MaterialEditorStats: Info Default UI Pixel Shader: 35 instructions
+[2018.04.03-03.30.20:980][ 29]MaterialEditorStats: Info Default UI Vertex Shader: 20 instructions
+[2018.04.03-03.30.20:980][ 29]MaterialEditorStats: Info Instanced UI Vertex Shader: 20 instructions
+[2018.04.03-03.30.20:980][ 29]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.03-03.30.20:980][ 29]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.03-03.30.35:547][755]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portrait/MaskTexture1" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/MaskTexture1.uasset" SILENT=true
+[2018.04.03-03.30.35:554][755]LogSavePackage: Save=5.83ms
+[2018.04.03-03.30.35:554][755]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/MaskTexture1E104E88140411DBD51D8869411ABD1F2.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/MaskTexture1.uasset'
+[2018.04.03-03.30.35:556][755]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/MaskTexture1.uasset
+[2018.04.03-03.30.35:557][755]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MaskTexture1" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/MaskTexture1.uasset" SILENT=true
+[2018.04.03-03.30.35:570][755]LogSavePackage: Save=3.15ms
+[2018.04.03-03.30.35:570][755]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/MaskTexture19F7DD5F64F023266AFD09888673585AC.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/MaskTexture1.uasset'
+[2018.04.03-03.30.35:573][755]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/MaskTexture1.uasset
+[2018.04.03-03.30.38:892][148]LogSavePackage: Save=6.26ms
+[2018.04.03-03.30.38:892][148]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/MaskTexture1E96DF6F34DF373DA4DAF6E9BB1D807C6.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Render_Targets/MaskTexture1.uasset'
+[2018.04.03-03.30.38:895][148]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Render_Targets/MaskTexture1.uasset
+[2018.04.03-03.30.38:949][148]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MaskTexture1" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/MaskTexture1.uasset" SILENT=true
+[2018.04.03-03.30.38:959][148]LogSavePackage: Save=3.11ms
+[2018.04.03-03.30.38:959][148]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/MaskTexture17A7F3D0C4013D02D97C302A673C8FEB9.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/MaskTexture1.uasset'
+[2018.04.03-03.30.38:960][148]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/MaskTexture1.uasset
+[2018.04.03-03.30.58:637][488]LogSavePackage: Save=59.28ms
+[2018.04.03-03.30.58:637][488]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/Minimal_Default3E37E6F4423FF7FABA0E5A9B5CD4FF34.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.04.03-03.30.58:639][488]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/StarterContent/Maps/Minimal_Default.umap
+[2018.04.03-03.30.58:660][488]LogFileHelpers: Saving map 'Minimal_Default' took 0.136
+[2018.04.03-03.30.58:671][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MaterialInst2" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/MaterialInst2.uasset" SILENT=true
+[2018.04.03-03.30.58:682][488]LogSavePackage: Save=10.55ms
+[2018.04.03-03.30.58:682][488]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/MaterialInst24ABB44A145F3BE557227BA8FE9423328.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/MaterialInst2.uasset'
+[2018.04.03-03.30.58:686][488]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/MaterialInst2.uasset
+[2018.04.03-03.30.58:696][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portrait/Textures/TargetMaterial2" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Textures/TargetMaterial2.uasset" SILENT=true
+[2018.04.03-03.30.58:709][488]LogSavePackage: Save=11.77ms
+[2018.04.03-03.30.58:709][488]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/TargetMaterial2A54E3F9540048CA062409BA1410DCAB8.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Textures/TargetMaterial2.uasset'
+[2018.04.03-03.30.58:711][488]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Textures/TargetMaterial2.uasset
+[2018.04.03-03.30.58:721][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portrait/Textures/TargetMaterial3" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Textures/TargetMaterial3.uasset" SILENT=true
+[2018.04.03-03.30.58:734][488]LogSavePackage: Save=11.78ms
+[2018.04.03-03.30.58:734][488]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/TargetMaterial3D49456B741D701F08CA1D0BB94AB6BDF.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Textures/TargetMaterial3.uasset'
+[2018.04.03-03.30.58:736][488]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Textures/TargetMaterial3.uasset
+[2018.04.03-03.30.58:746][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portrait/Textures/TargetMaterial4" FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Textures/TargetMaterial4.uasset" SILENT=true
+[2018.04.03-03.30.58:759][488]LogSavePackage: Save=11.62ms
+[2018.04.03-03.30.58:759][488]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/TargetMaterial44CFE0FE34023D7AFE40F47903FD195C0.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Textures/TargetMaterial4.uasset'
+[2018.04.03-03.30.58:761][488]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Textures/TargetMaterial4.uasset
+[2018.04.03-03.31.03:304][ 33]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.04.03-03.32.19:335][145]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube2)
+[2018.04.03-03.32.22:409][508]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube2)
+[2018.04.03-03.32.30:490][472]Cmd: DUPLICATE
+[2018.04.03-03.32.30:490][472]Cmd: ACTOR DUPLICATE
+[2018.04.03-03.32.39:198][503]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.04.03-03.32.46:803][410]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2018.04.03-03.32.48:895][658]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.04.03-03.32.49:870][772]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2018.04.03-03.32.54:432][316]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2018.04.03-03.32.55:624][456]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.04.03-03.32.59:466][914]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2018.04.03-03.33.32:927][917]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2018.04.03-03.33.45:854][461]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.04.03-03.33.49:338][871]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2018.04.03-03.33.59:336][ 61]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2018.04.03-03.34.09:391][242]LogSavePackage: Save=63.01ms
+[2018.04.03-03.34.09:391][242]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/Minimal_DefaultD8881E0F49A65A10C9315A802DFE1766.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.04.03-03.34.09:398][242]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/StarterContent/Maps/Minimal_Default.umap
+[2018.04.03-03.34.09:424][242]LogFileHelpers: Saving map 'Minimal_Default' took 0.146
+[2018.04.03-03.34.09:435][242]LogSavePackage: Save=5.26ms
+[2018.04.03-03.34.09:435][242]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/RenderTarget29EFA9661483F60E3BF8CDCBF486E61B0.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Render_Targets/RenderTarget2.uasset'
+[2018.04.03-03.34.09:437][242]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Render_Targets/RenderTarget2.uasset
+[2018.04.03-03.34.09:461][242]LogSavePackage: Save=19.22ms
+[2018.04.03-03.34.09:461][242]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/RenderTarget37F7B11444ACC1FA56376CD8F9171FA96.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Render_Targets/RenderTarget3.uasset'
+[2018.04.03-03.34.09:463][242]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Render_Targets/RenderTarget3.uasset
+[2018.04.03-03.34.09:473][242]LogSavePackage: Save=4.67ms
+[2018.04.03-03.34.09:473][242]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/RenderTarget424FC934E41652CFB746A55983C2DF946.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Render_Targets/RenderTarget4.uasset'
+[2018.04.03-03.34.09:475][242]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Render_Targets/RenderTarget4.uasset
+[2018.04.03-03.34.09:485][242]LogSavePackage: Save=4.64ms
+[2018.04.03-03.34.09:485][242]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/MaskTexture2404E07E34A45C7719216819534BC7E1D.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Render_Targets/MaskTexture2.uasset'
+[2018.04.03-03.34.09:487][242]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Render_Targets/MaskTexture2.uasset
+[2018.04.03-03.34.09:497][242]LogSavePackage: Save=4.41ms
+[2018.04.03-03.34.09:497][242]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/MaskTexture3A94F2A6148608C3627A9D0BE2625BD76.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Render_Targets/MaskTexture3.uasset'
+[2018.04.03-03.34.09:499][242]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Render_Targets/MaskTexture3.uasset
+[2018.04.03-03.34.09:509][242]LogSavePackage: Save=4.59ms
+[2018.04.03-03.34.09:509][242]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/MaskTexture4ED82368941AF387C6F5940A4DE62016A.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Render_Targets/MaskTexture4.uasset'
+[2018.04.03-03.34.09:511][242]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/Portrait/Render_Targets/MaskTexture4.uasset
+[2018.04.03-03.34.27:487][399]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.04.03-03.34.28:805][552]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2018.04.03-03.34.30:998][810]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.04.03-03.34.40:033][891]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2018.04.03-03.34.42:691][207]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2018.04.03-03.34.44:624][436]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.04.03-03.34.46:632][674]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2018.04.03-03.34.48:481][893]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.04.03-03.34.55:780][766]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2018.04.03-03.35.21:920][896]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2018.04.03-03.35.26:182][399]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2018.04.03-03.35.28:509][674]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube4)
+[2018.04.03-03.35.30:213][875]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube4)
+[2018.04.03-03.35.47:698][969]Cmd: DUPLICATE
+[2018.04.03-03.35.47:698][969]Cmd: ACTOR DUPLICATE
+[2018.04.03-03.35.51:708][447]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2018.04.03-03.36.01:481][614]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2018.04.03-03.36.10:203][657]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2018.04.03-03.36.12:262][901]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2018.04.03-03.36.15:437][279]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2018.04.03-03.36.19:422][754]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2018.04.03-03.36.26:934][652]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube5)
+[2018.04.03-03.36.42:937][567]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2018.04.03-03.37.07:863][987]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2018.04.03-03.37.11:197][384]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube6)
+[2018.04.03-03.37.20:974][553]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2018.04.03-03.37.38:976][228]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2018.04.03-03.37.40:620][422]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2018.04.03-03.37.53:013][900]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2018.04.03-03.38.05:473][385]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2018.04.03-03.38.08:018][686]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube6)
+[2018.04.03-03.38.09:714][886]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube6)
+[2018.04.03-03.38.16:599][706]Cmd: DUPLICATE
+[2018.04.03-03.38.16:599][706]Cmd: ACTOR DUPLICATE
+[2018.04.03-03.38.18:659][950]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2018.04.03-03.38.25:343][746]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube7)
+[2018.04.03-03.38.29:780][275]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2018.04.03-03.38.31:890][525]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2018.04.03-03.38.36:994][134]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2018.04.03-03.38.43:800][946]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube7)
+[2018.04.03-03.39.07:922][836]LogEditorViewport: Clicking Background
+[2018.04.03-03.39.08:820][943]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2018.04.03-03.39.24:088][633]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube7)
+[2018.04.03-03.39.27:172][  0]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube8)
+[2018.04.03-03.39.32:575][644]LogEditorViewport: Clicking Background
+[2018.04.03-03.39.33:164][714]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube7)
+[2018.04.03-03.39.36:500][111]LogEditorViewport: Clicking Background
+[2018.04.03-03.39.37:330][210]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube7)
+[2018.04.03-03.39.49:048][607]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2018.04.03-03.40.02:743][223]LogSavePackage: Save=66.60ms
+[2018.04.03-03.40.02:744][223]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/Minimal_Default223FAC0D4F7FD9F86A50E6AA5E75EA7D.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.04.03-03.40.02:746][223]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/StarterContent/Maps/Minimal_Default.umap
+[2018.04.03-03.40.02:775][223]LogFileHelpers: Saving map 'Minimal_Default' took 0.156
+[2018.04.03-03.41.19:597][462]Candidate modules for hot reload:
+[2018.04.03-03.41.19:597][462]  Project16
+[2018.04.03-03.41.19:597][462]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Project16 -ModuleWithSuffix Project16 4583 Win64 Development -editorrecompile -canskiplink "C:/Users/sound/Documents/Unreal Projects/Project16/Project16.uproject" ]
+[2018.04.03-03.41.19:617][462]Warning: Starting HotReload took  0.0s.
+[2018.04.03-03.41.42:566][765]CompilerResultsLog: New page: Compilation - 3 Apr 2018 05:41:42
+[2018.04.03-03.41.42:566][765]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.04.03-03.41.42:566][765]CompilerResultsLog: Info Parsing headers for Project16Editor
+[2018.04.03-03.41.42:566][765]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\sound\Documents\Unreal Projects\Project16\Project16.uproject" "C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\Project16Editor\Development\Project16Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.03-03.41.42:566][765]CompilerResultsLog: Info Reflection code generated for Project16Editor in 3.2486422 seconds
+[2018.04.03-03.41.42:566][765]CompilerResultsLog: Info Performing 5 actions (4 in parallel)
+[2018.04.03-03.41.42:566][765]CompilerResultsLog: Info Project16.generated.cpp
+[2018.04.03-03.41.42:566][765]CompilerResultsLog: Info GrissburgSceneController.cpp
+[2018.04.03-03.41.42:566][765]CompilerResultsLog: Info SceneController.cpp
+[2018.04.03-03.41.42:566][765]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(187) : warning C4996: 'ConstructObject': ConstructObject is deprecated. Use NewObject instead Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.04.03-03.41.42:566][765]CompilerResultsLog:Error: Error C:\Program Files\Epic Games\UE_4.16\Engine\Source\Runtime\CoreUObject\Public\UObject/Class.h(2938) : note: see declaration of 'ConstructObject'
+[2018.04.03-03.41.42:566][765]CompilerResultsLog: Info [4/5] Link UE4Editor-Project16-4583.dll
+[2018.04.03-03.41.42:566][765]CompilerResultsLog: Info [5/5] Link UE4Editor-Project16-4583.lib
+[2018.04.03-03.41.42:566][765]CompilerResultsLog: Info    Creating library C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Project16-4583.suppressed.lib and object C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Project16-4583.suppressed.exp
+[2018.04.03-03.41.42:566][765]CompilerResultsLog: Info    Creating library C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Project16-4583.lib and object C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Project16-4583.exp
+[2018.04.03-03.41.42:566][765]CompilerResultsLog: Info Total build time: 22.76 seconds (Local executor: 17.51 seconds)
+[2018.04.03-03.41.42:566][765]LogMainFrame: MainFrame: Module compiling took 22.972 seconds
+[2018.04.03-03.41.42:611][765]LogLinker:Warning: Can't find file '/Game/TargetMaterial1'
+[2018.04.03-03.41.42:611][765]LogLinker:Warning: Can't find file '/Game/TargetMaterial1'
+[2018.04.03-03.41.42:611][765]LogUObjectGlobals:Warning: Failed to find object 'Material /Game/TargetMaterial1.TargetMaterial1'
+[2018.04.03-03.41.42:611][765]Error: CDO Constructor (SceneController): Failed to find Material'/Game/TargetMaterial1.TargetMaterial1'
+
+[2018.04.03-03.41.42:611][765]Error: CDO Constructor (SceneController): Failed to find Material'/Game/TargetMaterial1.TargetMaterial1'
+
+[2018.04.03-03.41.42:612][765]Error: CDO Constructor (SceneController): Failed to find Material'/Game/TargetMaterial1.TargetMaterial1'
+
+[2018.04.03-03.41.42:612][765]Error: CDO Constructor (SceneController): Failed to find Material'/Game/TargetMaterial1.TargetMaterial1'
+
+[2018.04.03-03.41.42:612][765]LogLinker:Warning: Can't find file '/Game/MatInst1'
+[2018.04.03-03.41.42:612][765]LogLinker:Warning: Can't find file '/Game/MatInst1'
+[2018.04.03-03.41.42:612][765]LogUObjectGlobals:Warning: Failed to find object 'MaterialInstance /Game/MatInst1.MatInst1'
+[2018.04.03-03.41.42:612][765]Error: CDO Constructor (SceneController): Failed to find MaterialInstance'/Game/MatInst1.MatInst1'
+
+[2018.04.03-03.41.42:612][765]Error: CDO Constructor (GrissburgSceneController): Failed to find Material'/Game/TargetMaterial1.TargetMaterial1'
+
+[2018.04.03-03.41.42:612][765]Error: CDO Constructor (GrissburgSceneController): Failed to find Material'/Game/TargetMaterial1.TargetMaterial1'
+
+[2018.04.03-03.41.42:612][765]Error: CDO Constructor (GrissburgSceneController): Failed to find Material'/Game/TargetMaterial1.TargetMaterial1'
+
+[2018.04.03-03.41.42:612][765]Error: CDO Constructor (GrissburgSceneController): Failed to find Material'/Game/TargetMaterial1.TargetMaterial1'
+
+[2018.04.03-03.41.42:613][765]Error: CDO Constructor (GrissburgSceneController): Failed to find MaterialInstance'/Game/MatInst1.MatInst1'
+
+[2018.04.03-03.41.42:613][765]LogLinker:Warning: Can't find file '/Game/Portrait/Meshes/13'
+[2018.04.03-03.41.42:613][765]LogLinker:Warning: Can't find file '/Game/Portrait/Meshes/13'
+[2018.04.03-03.41.42:613][765]LogUObjectGlobals:Warning: Failed to find object 'StaticMesh None./Game/Portrait/Meshes/13'
+[2018.04.03-03.41.42:613][765]Error: CDO Constructor (GrissburgSceneController): Failed to find Material'/Game/TargetMaterial1.TargetMaterial1'
+
+[2018.04.03-03.41.42:613][765]Error: CDO Constructor (GrissburgSceneController): Failed to find Material'/Game/TargetMaterial1.TargetMaterial1'
+
+[2018.04.03-03.41.42:613][765]Error: CDO Constructor (GrissburgSceneController): Failed to find Material'/Game/TargetMaterial1.TargetMaterial1'
+
+[2018.04.03-03.41.42:614][765]Error: CDO Constructor (GrissburgSceneController): Failed to find Material'/Game/TargetMaterial1.TargetMaterial1'
+
+[2018.04.03-03.41.42:614][765]Error: CDO Constructor (GrissburgSceneController): Failed to find MaterialInstance'/Game/MatInst1.MatInst1'
+
+[2018.04.03-03.41.42:614][765]LogLinker:Warning: Can't find file '/Game/Portrait/Meshes/13'
+[2018.04.03-03.41.42:614][765]LogUObjectGlobals:Warning: Failed to find object 'StaticMesh None./Game/Portrait/Meshes/13'
+[2018.04.03-03.41.42:617][765]LogLinker:Warning: Can't find file '/Game/Portrait/Meshes/13'
+[2018.04.03-03.41.42:617][765]LogUObjectGlobals:Warning: Failed to find object 'StaticMesh None./Game/Portrait/Meshes/13'
+[2018.04.03-03.41.42:618][765]LogContentBrowser: Native class hierarchy updated for 'Project16' in 0.0012 seconds. Added 5 classes and 2 folders.
+[2018.04.03-03.41.42:618][765]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (SceneController): Failed to find Material'/Game/TargetMaterial1.TargetMaterial1'
+
+Error: CDO Constructor (SceneController): Failed to find Material'/Game/TargetMaterial1.TargetMaterial1'
+
+Error: CDO Constructor (SceneController): Failed to find Material'/Game/TargetMaterial1.TargetMaterial1'
+
+Error: CDO Constructor (SceneController): Failed to find Material'/Game/TargetMaterial1.TargetMaterial1'
+
+Error: CDO Constructor (SceneController): Failed to find MaterialInstance'/Game/MatInst1.MatInst1'
+
+Error: CDO Constructor (GrissburgSceneController): Failed to find Material'/Game/TargetMaterial1.TargetMaterial1'
+
+Error: CDO Constructor (GrissburgSceneController): Failed to find Material'/Game/TargetMaterial1.TargetMaterial1'
+
+Error: CDO Constructor (GrissburgSceneController): Failed to find Material'/Game/TargetMaterial1.TargetMaterial1'
+
+Error: CDO Constructor (GrissburgSceneController): Failed to find Material'/Game/TargetMaterial1.TargetMaterial1'
+
+Error: CDO Constructor (GrissburgSceneController): Failed to find MaterialInstance'/Game/MatInst1.MatInst1'
+
+Error: CDO Constructor (GrissburgSceneController): Failed to find Material'/Game/TargetMaterial1.TargetMaterial1'
+
+Error: CDO Constructor (GrissburgSceneController): Failed to find Material'/Game/TargetMaterial1.TargetMaterial1'
+
+Error: CDO Constructor (GrissburgSceneController): Failed to find Material'/Game/TargetMaterial1.TargetMaterial1'
+
+Error: CDO Constructor (GrissburgSceneController): Failed to find Material'/Game/TargetMaterial1.TargetMaterial1'
+
+Error: CDO Constructor (GrissburgSceneController): Failed to find MaterialInstance'/Game/MatInst1.MatInst1'
+
+
+[2018.04.03-03.41.42:619][765]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.03-03.41.42:638][765]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 2337 classes and 499 folders.
+[2018.04.03-03.41.42:638][765]Display: HotReload took 23.0s.
+[2018.04.03-03.41.48:832][508]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.03-03.41.48:845][508]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.03-03.41.48:845][508]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.03-03.41.48:845][508]PIE: New page: PIE session: Minimal_Default (3 Apr 2018 05:41:48)
+[2018.04.03-03.41.48:845][508]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.04.03-03.41.48:846][508]LogLinker:Warning: Can't find file '/Game/Portrait/Meshes/13'
+[2018.04.03-03.41.48:846][508]LogUObjectGlobals:Warning: Failed to find object 'StaticMesh None./Game/Portrait/Meshes/13'
+[2018.04.03-03.41.48:847][508]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001991s)
+[2018.04.03-03.41.48:848][508]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.04.03-03.41.48:848][508]LogPlayLevel: PIE: World Init took: (0.000667s)
+[2018.04.03-03.41.48:848][508]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002800s)
+[2018.04.03-03.41.48:859][508]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.03-03.41.48:867][508]LogInit: FAudioDevice initialized.
+[2018.04.03-03.41.48:899][508]LogLoad: Game class is 'MyGameMode_C'
+[2018.04.03-03.41.48:900][508]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.04.03-04.41.48
+[2018.04.03-03.41.48:901][508]LogWorld: Bringing up level for play took: 0.000809
+[2018.04.03-03.41.48:902][508]Cmd: r.SetRes 1920x1080w
+[2018.04.03-03.41.48:902][508]r.SetRes = "1920x1080w"
+[2018.04.03-03.41.48:902][508]LogBlueprintUserMessages: [Minimal_Default_C_1] Hello

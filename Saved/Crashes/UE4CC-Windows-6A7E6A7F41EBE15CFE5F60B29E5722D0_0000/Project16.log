@@ -1,0 +1,799 @@
+﻿Log file open, 03/31/18 06:23:39
+LogInit:Display: Running engine for game: Project16
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1863686032) SRandInit(-1863686032).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.080758
+LogInit:Warning: Incompatible or missing module: UE4Editor-Project16.dll
+Running C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Project16 Development Win64 -project="C:/Users/sound/Documents/Unreal Projects/Project16/Project16.uproject" -editorrecompile -progress -NoHotReloadFromIDE
+Creating makefile for Project16 (no existing makefile)
+@progress push 5%
+Parsing headers for Project16Editor
+  Running UnrealHeaderTool "C:\Users\sound\Documents\Unreal Projects\Project16\Project16.uproject" "C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\Project16Editor\Development\Project16Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for Project16Editor in 5.3127774 seconds
+@progress pop
+Performing 3 actions (4 in parallel)
+Project16.generated.cpp
+[2/3] Link UE4Editor-Project16.dll
+[3/3] Link UE4Editor-Project16.lib
+   Creating library C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Project16.suppressed.lib and object C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Project16.suppressed.exp
+   Creating library C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Project16.lib and object C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Project16.exp
+Total build time: 20.14 seconds (Local executor: 11.52 seconds)
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.31-05.24.01:969][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.31-05.24.01:969][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.31-05.24.01:977][  0]LogInit: Computer: DESKTOP-P3QBLFC
+[2018.03.31-05.24.01:977][  0]LogInit: User: sound
+[2018.03.31-05.24.01:977][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.31-05.24.01:977][  0]LogInit: High frequency timer resolution =4.101568 MHz
+[2018.03.31-05.24.01:977][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.03.31-05.24.01:977][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.31-05.24.01:977][  0]LogMemory: Process Physical Memory: 278.16 MB used, 278.16 MB peak
+[2018.03.31-05.24.01:977][  0]LogMemory: Process Virtual Memory: 261.54 MB used, 261.54 MB peak
+[2018.03.31-05.24.01:977][  0]LogMemory: Physical Memory: 4150.36 MB used,  12186.19 MB free, 16336.55 MB total
+[2018.03.31-05.24.01:977][  0]LogMemory: Virtual Memory: 714.64 MB used,  12186.19 MB free, 134217728.00 MB total
+[2018.03.31-05.24.02:026][  0]LogInit: Using OS detected language (en-GB).
+[2018.03.31-05.24.02:026][  0]LogInit: Using OS detected locale (en-GB).
+[2018.03.31-05.24.02:028][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.03.31-05.24.02:619][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.31-05.24.02:650][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2018.03.31-05.24.02:650][  0]LogD3D11RHI:       8086/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.31-05.24.02:652][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.31-05.24.02:652][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.31-05.24.02:652][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.31-05.24.02:656][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.31-05.24.02:656][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.31-05.24.02:656][  0]LogWindows: EnumDisplayDevices:
+[2018.03.31-05.24.02:656][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2018.03.31-05.24.02:656][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.03.31-05.24.02:656][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.03.31-05.24.02:657][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.03.31-05.24.02:657][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.31-05.24.02:657][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2018.03.31-05.24.02:657][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.31-05.24.02:657][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.31-05.24.02:657][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.03.31-05.24.02:674][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.31-05.24.02:689][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.03.31-05.24.02:736][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/sound/Documents/Unreal Projects/Project16/Intermediate/Shaders/WorkingDirectory/10736/).
+[2018.03.31-05.24.02:736][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/sound/AppData/Local/Temp/UnrealShaderWorkingDir/3F82EB32491B1A9D1650098FD9078FE3/'.
+[2018.03.31-05.24.02:736][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.03.31-05.24.03:449][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.31-05.24.03:484][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.03.31-05.24.03:520][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.31-05.24.03:555][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.03.31-05.24.03:592][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.03.31-05.24.03:627][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.31-05.24.03:663][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.31-05.24.03:699][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.31-05.24.03:731][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.03.31-05.24.03:765][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.03.31-05.24.03:801][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.31-05.24.03:837][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.31-05.24.03:872][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.31-05.24.03:906][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.31-05.24.03:942][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.31-05.24.04:011][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.31-05.24.04:011][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.31-05.24.04:039][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.03.31-05.24.04:111][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.03.31-05.24.04:131][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.03.31-05.24.04:166][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.31-05.24.04:200][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.31-05.24.04:235][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.31-05.24.04:269][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.03.31-05.24.04:269][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.03.31-05.24.04:622][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.03.31-05.24.04:679][  0]LogDerivedDataCache: Loaded boot cache 0.06s 90MB C:/Users/sound/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.03.31-05.24.04:679][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/sound/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.03.31-05.24.04:679][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/sound/Documents/Unreal Projects/Project16/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.31-05.24.04:679][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.31-05.24.04:679][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/sound/Documents/Unreal Projects/Project16/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.31-05.24.04:679][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.31-05.24.04:690][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.31-05.24.04:703][  0]LogDerivedDataCache: Using Local data cache path C:/Users/sound/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.31-05.24.04:709][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.31-05.24.04:709][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.31-05.24.04:710][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.31-05.24.04:710][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.31-05.24.04:927][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.31-05.24.04:966][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.03.31-05.24.05:082][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.31-05.24.05:114][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.31-05.24.05:150][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.31-05.24.05:150][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.03.31-05.24.05:150][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.03.31-05.24.05:502][  0]LogNetVersion: Project16 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2933532304)
+[2018.03.31-05.24.05:552][  0]LogAssetRegistry: FAssetRegistry took 0.0251 seconds to start up
+[2018.03.31-05.24.05:594][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.024615 seconds
+[2018.03.31-05.24.05:598][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.03.31-05.24.05:598][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2018.03.31-05.24.05:598][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.31-05.24.05:644][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.31-05.24.07:295][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.31-05.24.07:329][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.31-05.24.07:763][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.31-05.24.08:044][  0]SourceControl: Info Source control is disabled
+[2018.03.31-05.24.08:122][  0]SourceControl: Info Source control is disabled
+[2018.03.31-05.24.08:158][  0]SourceControl: Info Source control is disabled
+[2018.03.31-05.24.08:192][  0]SourceControl: Info Source control is disabled
+[2018.03.31-05.24.08:667][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.31-05.24.09:108][  0]LogEngine: Initializing Engine...
+[2018.03.31-05.24.09:108][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.31-05.24.09:227][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.31-05.24.09:227][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.31-05.24.09:318][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.31-05.24.09:327][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.31-05.24.09:349][  0]LogInit: FAudioDevice initialized.
+[2018.03.31-05.24.09:378][  0]LogDerivedDataCache: Saved boot cache 0.03s 90MB C:/Users/sound/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.03.31-05.24.09:387][  0]LogInit: Texture streaming: Enabled
+[2018.03.31-05.24.09:456][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.31-05.24.09:611][  0]LogInit: Transaction tracking system initialized
+[2018.03.31-05.24.09:831][  0]BlueprintLog: New page: Editor Load
+[2018.03.31-05.24.10:501][  0]LocalizationService: Info Localization service is disabled
+[2018.03.31-05.24.10:988][  0]LogConsoleResponse:Display: 
+[2018.03.31-05.24.11:087][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.31-05.24.11:087][  0]LogCook:Display: Mobile HDR setting 1
+[2018.03.31-05.24.11:816][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sound/Documents/Unreal Projects/Project16/Content/' took 0.01s
+[2018.03.31-05.24.11:816][  0]SourceControl: Info Source control is disabled
+[2018.03.31-05.24.11:816][  0]Cmd: MAP LOAD FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.31-05.24.11:816][  0]LightingResults: New page: Lighting Build
+[2018.03.31-05.24.11:845][  0]MapCheck: New page: Map Check
+[2018.03.31-05.24.11:845][  0]LightingResults: New page: Lighting Build
+[2018.03.31-05.24.11:911][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.03.31-05.24.11:914][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.31-05.24.11:923][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.31-05.24.11:958][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 35.533ms to complete.
+[2018.03.31-05.24.11:958][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.142
+[2018.03.31-05.24.12:069][  0]LogCollectionManager: Loaded 0 collections in 0.001333 seconds
+[2018.03.31-05.24.12:133][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sound/Documents/Unreal Projects/Project16/Saved/Collections/' took 0.01s
+[2018.03.31-05.24.12:133][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sound/Documents/Unreal Projects/Project16/Content/Developers/sound/Collections/' took 0.01s
+[2018.03.31-05.24.12:133][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sound/Documents/Unreal Projects/Project16/Content/Collections/' took 0.01s
+[2018.03.31-05.24.12:133][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.03.31-05.24.12:140][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2334 classes and 493 folders.
+[2018.03.31-05.24.12:187][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2018.03.31-05.24.12:216][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2018.03.31-05.24.12:247][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2018.03.31-05.24.12:303][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.03.31-05.24.12:305][  0]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.31-05.24.12:307][  0]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.31-05.24.12:311][  0]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.31-05.24.12:395][  0]LogRenderer: Reallocating scene render targets to support 232x300 NumSamples 1 (Frame:1).
+[2018.03.31-05.24.12:412][  0]LogRenderer: Reallocating scene render targets to support 920x576 NumSamples 1 (Frame:1).
+[2018.03.31-05.24.12:428][  0]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.31-05.24.12:469][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.03.31-05.24.12:522][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2018.03.31-05.24.12:522][  0]LogLoad: (Engine Initialization) Total time: 34.25 seconds
+[2018.03.31-05.24.12:522][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.04 seconds
+[2018.03.31-05.24.12:522][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.03.31-05.24.12:522][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.03.31-05.24.12:531][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.03.31-05.24.12:531][  0]LogOcInput: OculusInput pre-init called
+[2018.03.31-05.24.12:531][  0]LogHMD: Starting GearVRController plugin
+[2018.03.31-05.24.12:533][  0]LogActor:Warning: SceneController /Engine/Transient.World_0:PersistentLevel.SceneController_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.03.31-05.24.12:534][  0]LogActor:Warning: GrissburgSceneController /Engine/Transient.World_1:PersistentLevel.GrissburgSceneController_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.03.31-05.24.12:544][  0]LogAssetRegistry: Asset discovery search completed in 7.0153 seconds
+[2018.03.31-05.24.12:546][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.31-05.24.12:546][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2018.03.31-05.24.12:548][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.31-05.26.25:810][987]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.31-05.26.25:834][987]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-05.26.25:834][987]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.31-05.26.25:835][987]PIE: New page: PIE session: Minimal_Default (31 Mar 2018 07:26:25)
+[2018.03.31-05.26.25:835][987]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.03.31-05.26.25:836][987]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001284s)
+[2018.03.31-05.26.25:836][987]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.03.31-05.26.25:837][987]LogPlayLevel: PIE: World Init took: (0.000480s)
+[2018.03.31-05.26.25:837][987]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.001909s)
+[2018.03.31-05.26.25:847][987]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.31-05.26.25:855][987]LogInit: FAudioDevice initialized.
+[2018.03.31-05.26.25:898][987]LogLoad: Game class is 'MyGameMode_C'
+[2018.03.31-05.26.25:900][987]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.03.31-06.26.25
+[2018.03.31-05.26.25:900][987]LogWorld: Bringing up level for play took: 0.000760
+[2018.03.31-05.26.25:931][987]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 11 classes and 0 folders.
+[2018.03.31-05.26.25:933][987]Cmd: r.SetRes 1920x1080w
+[2018.03.31-05.26.25:933][987]r.SetRes = "1920x1080w"
+[2018.03.31-05.26.25:933][987]LogBlueprintUserMessages: [Minimal_Default_C_0] Hello
+[2018.03.31-05.26.25:934][987]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.146
+[2018.03.31-05.26.25:934][987]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-05.26.27:321][152]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-05.26.27:349][152]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-05.26.36:077][198]LogSlate: Took 0.000109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.31-05.26.38:440][292]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/sound/Documents/Unreal Projects/Project16/Source/Project16/SceneController.h'
+[2018.03.31-05.26.38:454][292]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/sound/Documents/Unreal Projects/Project16/Source/Project16/SceneController.cpp'
+[2018.03.31-05.32.30:802][659]Candidate modules for hot reload:
+[2018.03.31-05.32.30:803][659]  Project16
+[2018.03.31-05.32.30:803][659]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Project16 -ModuleWithSuffix Project16 161 Win64 Development -editorrecompile -canskiplink "C:/Users/sound/Documents/Unreal Projects/Project16/Project16.uproject" ]
+[2018.03.31-05.32.30:808][659]Warning: Starting HotReload took  0.0s.
+[2018.03.31-05.32.52:868][303]CompilerResultsLog: New page: Compilation - 31 Mar 2018 07:32:52
+[2018.03.31-05.32.52:868][303]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.03.31-05.32.52:868][303]CompilerResultsLog: Info Parsing headers for Project16Editor
+[2018.03.31-05.32.52:868][303]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\sound\Documents\Unreal Projects\Project16\Project16.uproject" "C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\Project16Editor\Development\Project16Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.03.31-05.32.52:868][303]CompilerResultsLog: Info Reflection code generated for Project16Editor in 3.0231786 seconds
+[2018.03.31-05.32.52:868][303]CompilerResultsLog: Info Performing 5 actions (4 in parallel)
+[2018.03.31-05.32.52:868][303]CompilerResultsLog: Info GrissburgSceneController.cpp
+[2018.03.31-05.32.52:868][303]CompilerResultsLog: Info SceneController.cpp
+[2018.03.31-05.32.52:868][303]CompilerResultsLog: Info Project16.generated.cpp
+[2018.03.31-05.32.52:868][303]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(120) : warning C4996: 'ConstructObject': ConstructObject is deprecated. Use NewObject instead Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.03.31-05.32.52:868][303]CompilerResultsLog:Error: Error C:\Program Files\Epic Games\UE_4.16\Engine\Source\Runtime\CoreUObject\Public\UObject/Class.h(2938) : note: see declaration of 'ConstructObject'
+[2018.03.31-05.32.52:868][303]CompilerResultsLog: Info [4/5] Link UE4Editor-Project16-161.dll
+[2018.03.31-05.32.52:868][303]CompilerResultsLog: Info [5/5] Link UE4Editor-Project16-161.lib
+[2018.03.31-05.32.52:868][303]CompilerResultsLog: Info    Creating library C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Project16-161.suppressed.lib and object C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Project16-161.suppressed.exp
+[2018.03.31-05.32.52:868][303]CompilerResultsLog: Info    Creating library C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Project16-161.lib and object C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Project16-161.exp
+[2018.03.31-05.32.52:868][303]CompilerResultsLog: Info Total build time: 21.90 seconds (Local executor: 17.02 seconds)
+[2018.03.31-05.32.52:869][303]LogMainFrame: MainFrame: Module compiling took 22.068 seconds
+[2018.03.31-05.32.52:962][303]LogContentBrowser: Native class hierarchy updated for 'Project16' in 0.0012 seconds. Added 5 classes and 2 folders.
+[2018.03.31-05.32.52:963][303]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.03.31-05.32.53:015][303]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2336 classes and 497 folders.
+[2018.03.31-05.32.53:015][303]Display: HotReload took 22.2s.
+[2018.03.31-05.32.57:373][825]LogEditorActor: Deleted Actor: SceneControllerBlueprint_C
+[2018.03.31-05.32.57:379][825]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2018.03.31-05.33.07:277][ 13]LogEditor: Attempting to add actor of class 'GrissburgSceneController' to level at -560.00,-50.00,-490.00
+[2018.03.31-05.33.07:623][ 52]LogEditor: Attempting to add actor of class 'GrissburgSceneController' to level at -560.00,-50.00,-490.00
+[2018.03.31-05.33.16:557][121]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.31-05.33.16:568][121]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-05.33.16:568][121]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.31-05.33.16:568][121]PIE: New page: PIE session: Minimal_Default (31 Mar 2018 07:33:16)
+[2018.03.31-05.33.16:568][121]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.03.31-05.33.16:570][121]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001214s)
+[2018.03.31-05.33.16:570][121]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.03.31-05.33.16:570][121]LogPlayLevel: PIE: World Init took: (0.000542s)
+[2018.03.31-05.33.16:570][121]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.001906s)
+[2018.03.31-05.33.16:582][121]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.31-05.33.16:590][121]LogInit: FAudioDevice initialized.
+[2018.03.31-05.33.16:620][121]LogLoad: Game class is 'MyGameMode_C'
+[2018.03.31-05.33.16:621][121]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.03.31-06.33.16
+[2018.03.31-05.33.16:621][121]LogWorld: Bringing up level for play took: 0.000702
+[2018.03.31-05.33.16:622][121]Cmd: r.SetRes 1920x1080w
+[2018.03.31-05.33.16:623][121]r.SetRes = "1920x1080w"
+[2018.03.31-05.33.16:623][121]LogBlueprintUserMessages: [Minimal_Default_C_0] Hello
+[2018.03.31-05.33.16:624][121]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.543
+[2018.03.31-05.33.16:624][121]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-05.33.18:094][297]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-05.33.18:127][297]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-05.33.53:723][566]Candidate modules for hot reload:
+[2018.03.31-05.33.53:723][566]  Project16
+[2018.03.31-05.33.53:723][566]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Project16 -ModuleWithSuffix Project16 7505 Win64 Development -editorrecompile -canskiplink "C:/Users/sound/Documents/Unreal Projects/Project16/Project16.uproject" ]
+[2018.03.31-05.33.53:749][566]Warning: Starting HotReload took  0.0s.
+[2018.03.31-05.33.55:621][791]CompilerResultsLog: New page: Compilation - 31 Mar 2018 07:33:55
+[2018.03.31-05.33.55:621][791]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.03.31-05.33.55:621][791]CompilerResultsLog: Info Target is up to date
+[2018.03.31-05.33.55:621][791]CompilerResultsLog: Info Total build time: 1.72 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.03.31-05.33.55:621][791]LogMainFrame: MainFrame: Module compiling took 1.900 seconds
+[2018.03.31-05.33.55:637][791]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2336 classes and 497 folders.
+[2018.03.31-05.33.55:637][791]Display: HotReload took  1.9s.
+[2018.03.31-05.33.58:625][150]LogEditorActor: Deleted Actor: GrissburgSceneController
+[2018.03.31-05.33.58:631][150]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2018.03.31-05.34.01:519][497]LogEditor: Attempting to add actor of class 'GrissburgSceneController' to level at -600.00,80.00,-450.00
+[2018.03.31-05.34.01:937][547]LogEditor: Attempting to add actor of class 'GrissburgSceneController' to level at -600.00,80.00,-450.00
+[2018.03.31-05.34.05:807][ 11]Cmd: TRANSACTION UNDO
+[2018.03.31-05.34.05:807][ 11]LogEditorTransaction: Undo Create Actors
+[2018.03.31-05.34.05:812][ 11]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.31-05.34.07:767][246]Cmd: TRANSACTION UNDO
+[2018.03.31-05.34.07:767][246]LogEditorTransaction: Undo Delete selection
+[2018.03.31-05.34.09:550][459]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.31-05.34.09:561][459]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-05.34.09:561][459]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.31-05.34.09:561][459]PIE: New page: PIE session: Minimal_Default (31 Mar 2018 07:34:09)
+[2018.03.31-05.34.09:561][459]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.03.31-05.34.09:563][459]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001072s)
+[2018.03.31-05.34.09:563][459]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.03.31-05.34.09:563][459]LogPlayLevel: PIE: World Init took: (0.000391s)
+[2018.03.31-05.34.09:563][459]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.001570s)
+[2018.03.31-05.34.09:574][459]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.31-05.34.09:581][459]LogInit: FAudioDevice initialized.
+[2018.03.31-05.34.09:607][459]LogLoad: Game class is 'MyGameMode_C'
+[2018.03.31-05.34.09:608][459]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.03.31-06.34.09
+[2018.03.31-05.34.09:609][459]LogWorld: Bringing up level for play took: 0.000672
+[2018.03.31-05.34.09:610][459]Cmd: r.SetRes 1920x1080w
+[2018.03.31-05.34.09:610][459]r.SetRes = "1920x1080w"
+[2018.03.31-05.34.09:610][459]LogBlueprintUserMessages: [Minimal_Default_C_0] Hello
+[2018.03.31-05.34.09:611][459]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.47
+[2018.03.31-05.34.09:611][459]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-05.34.11:363][669]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-05.34.11:395][669]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-05.34.45:232][822]LogSavePackage: Save=73.08ms
+[2018.03.31-05.34.45:232][822]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/Minimal_Default_Auto1E0D8FF504600DF355BB3B98A6C0456A3.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2018.03.31-05.34.45:234][822]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap
+[2018.03.31-05.34.45:236][822]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.148
+[2018.03.31-05.34.45:236][822]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.148
+[2018.03.31-05.34.46:075][825]LogHotReload: New module detected: UE4Editor-Project16-3250.dll
+[2018.03.31-05.34.46:748][828]LogHotReload: Starting Hot-Reload from IDE
+[2018.03.31-05.34.46:802][828]LogContentBrowser: Native class hierarchy updated for 'Project16' in 0.0012 seconds. Added 5 classes and 2 folders.
+[2018.03.31-05.34.46:802][828]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.03.31-05.34.46:821][828]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2336 classes and 497 folders.
+[2018.03.31-05.34.46:823][828]Display: HotReload took  0.1s.
+[2018.03.31-05.34.50:060][992]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.31-05.34.50:073][992]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-05.34.50:073][992]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.31-05.34.50:073][992]PIE: New page: PIE session: Minimal_Default (31 Mar 2018 07:34:50)
+[2018.03.31-05.34.50:073][992]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.03.31-05.34.50:075][992]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001359s)
+[2018.03.31-05.34.50:075][992]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.03.31-05.34.50:075][992]LogPlayLevel: PIE: World Init took: (0.000460s)
+[2018.03.31-05.34.50:075][992]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.001933s)
+[2018.03.31-05.34.50:087][992]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.31-05.34.50:094][992]LogInit: FAudioDevice initialized.
+[2018.03.31-05.34.50:124][992]LogLoad: Game class is 'MyGameMode_C'
+[2018.03.31-05.34.50:126][992]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.03.31-06.34.50
+[2018.03.31-05.34.50:126][992]LogWorld: Bringing up level for play took: 0.000719
+[2018.03.31-05.34.50:127][992]Cmd: r.SetRes 1920x1080w
+[2018.03.31-05.34.50:127][992]r.SetRes = "1920x1080w"
+[2018.03.31-05.34.50:127][992]LogBlueprintUserMessages: [Minimal_Default_C_1] Hello
+[2018.03.31-05.34.50:128][992]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.048
+[2018.03.31-05.34.50:128][992]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-05.34.51:497][156]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-05.34.51:527][156]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-05.34.54:059][458]LogEditorActor: Deleted Actor: GrissburgSceneController
+[2018.03.31-05.34.54:064][458]LogEditorActor: Deleted 1 Actors (0.005 secs)
+[2018.03.31-05.34.57:795][906]LogEditor: Attempting to add actor of class 'GrissburgSceneController' to level at -570.00,-10.00,-480.00
+[2018.03.31-05.34.58:146][948]LogEditor: Attempting to add actor of class 'GrissburgSceneController' to level at -570.00,-10.00,-480.00
+[2018.03.31-05.35.01:739][378]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.31-05.35.04:315][686]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.31-05.35.04:326][686]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-05.35.04:327][686]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.31-05.35.04:327][686]PIE: New page: PIE session: Minimal_Default (31 Mar 2018 07:35:04)
+[2018.03.31-05.35.04:327][686]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.03.31-05.35.04:328][686]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001142s)
+[2018.03.31-05.35.04:328][686]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.03.31-05.35.04:328][686]LogPlayLevel: PIE: World Init took: (0.000505s)
+[2018.03.31-05.35.04:328][686]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.001787s)
+[2018.03.31-05.35.04:339][686]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.31-05.35.04:346][686]LogInit: FAudioDevice initialized.
+[2018.03.31-05.35.04:374][686]LogLoad: Game class is 'MyGameMode_C'
+[2018.03.31-05.35.04:375][686]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.03.31-06.35.04
+[2018.03.31-05.35.04:375][686]LogWorld: Bringing up level for play took: 0.000645
+[2018.03.31-05.35.04:376][686]Cmd: r.SetRes 1920x1080w
+[2018.03.31-05.35.04:376][686]r.SetRes = "1920x1080w"
+[2018.03.31-05.35.04:376][686]LogBlueprintUserMessages: [Minimal_Default_C_1] Hello
+[2018.03.31-05.35.04:377][686]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.297
+[2018.03.31-05.35.04:377][686]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-05.35.05:648][838]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-05.35.05:677][838]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-05.35.41:280][884]Candidate modules for hot reload:
+[2018.03.31-05.35.41:280][884]  Project16
+[2018.03.31-05.35.41:280][884]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Project16 -ModuleWithSuffix Project16 9706 Win64 Development -editorrecompile -canskiplink "C:/Users/sound/Documents/Unreal Projects/Project16/Project16.uproject" ]
+[2018.03.31-05.35.41:305][884]Warning: Starting HotReload took  0.0s.
+[2018.03.31-05.36.00:394][175]CompilerResultsLog: New page: Compilation - 31 Mar 2018 07:36:00
+[2018.03.31-05.36.00:394][175]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.03.31-05.36.00:394][175]CompilerResultsLog: Info Parsing headers for Project16Editor
+[2018.03.31-05.36.00:394][175]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\sound\Documents\Unreal Projects\Project16\Project16.uproject" "C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\Project16Editor\Development\Project16Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.03.31-05.36.00:394][175]CompilerResultsLog: Info Reflection code generated for Project16Editor in 3.0279449 seconds
+[2018.03.31-05.36.00:394][175]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2018.03.31-05.36.00:394][175]CompilerResultsLog: Info GrissburgSceneController.cpp
+[2018.03.31-05.36.00:394][175]CompilerResultsLog: Info [2/3] Link UE4Editor-Project16-9706.dll
+[2018.03.31-05.36.00:394][175]CompilerResultsLog: Info [3/3] Link UE4Editor-Project16-9706.lib
+[2018.03.31-05.36.00:394][175]CompilerResultsLog: Info    Creating library C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Project16-9706.suppressed.lib and object C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Project16-9706.suppressed.exp
+[2018.03.31-05.36.00:394][175]CompilerResultsLog: Info    Creating library C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Project16-9706.lib and object C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Project16-9706.exp
+[2018.03.31-05.36.00:394][175]CompilerResultsLog: Info Total build time: 18.93 seconds (Local executor: 14.07 seconds)
+[2018.03.31-05.36.00:394][175]LogMainFrame: MainFrame: Module compiling took 19.116 seconds
+[2018.03.31-05.36.00:443][175]LogContentBrowser: Native class hierarchy updated for 'Project16' in 0.0013 seconds. Added 5 classes and 2 folders.
+[2018.03.31-05.36.00:444][175]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.03.31-05.36.00:464][175]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2336 classes and 497 folders.
+[2018.03.31-05.36.00:464][175]Display: HotReload took 19.2s.
+[2018.03.31-05.36.05:018][722]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.31-05.36.05:029][722]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-05.36.05:029][722]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.31-05.36.05:030][722]PIE: New page: PIE session: Minimal_Default (31 Mar 2018 07:36:05)
+[2018.03.31-05.36.05:030][722]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.03.31-05.36.05:031][722]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001082s)
+[2018.03.31-05.36.05:031][722]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.03.31-05.36.05:031][722]LogPlayLevel: PIE: World Init took: (0.000383s)
+[2018.03.31-05.36.05:031][722]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.001573s)
+[2018.03.31-05.36.05:042][722]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.31-05.36.05:049][722]LogInit: FAudioDevice initialized.
+[2018.03.31-05.36.05:077][722]LogLoad: Game class is 'MyGameMode_C'
+[2018.03.31-05.36.05:078][722]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.03.31-06.36.05
+[2018.03.31-05.36.05:079][722]LogWorld: Bringing up level for play took: 0.000725
+[2018.03.31-05.36.05:080][722]Cmd: r.SetRes 1920x1080w
+[2018.03.31-05.36.05:080][722]r.SetRes = "1920x1080w"
+[2018.03.31-05.36.05:080][722]LogBlueprintUserMessages: [Minimal_Default_C_1] Hello
+[2018.03.31-05.36.05:081][722]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.001
+[2018.03.31-05.36.05:081][722]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-05.36.10:526][375]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-05.36.10:557][375]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-05.36.12:580][616]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.31-05.36.12:591][616]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-05.36.12:591][616]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.31-05.36.12:591][616]PIE: New page: PIE session: Minimal_Default (31 Mar 2018 07:36:12)
+[2018.03.31-05.36.12:591][616]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.03.31-05.36.12:592][616]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001073s)
+[2018.03.31-05.36.12:593][616]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.03.31-05.36.12:593][616]LogPlayLevel: PIE: World Init took: (0.000376s)
+[2018.03.31-05.36.12:593][616]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.001559s)
+[2018.03.31-05.36.12:606][616]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.31-05.36.12:613][616]LogInit: FAudioDevice initialized.
+[2018.03.31-05.36.12:639][616]LogLoad: Game class is 'MyGameMode_C'
+[2018.03.31-05.36.12:640][616]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.03.31-06.36.12
+[2018.03.31-05.36.12:640][616]LogWorld: Bringing up level for play took: 0.000792
+[2018.03.31-05.36.12:641][616]Cmd: r.SetRes 1920x1080w
+[2018.03.31-05.36.12:641][616]r.SetRes = "1920x1080w"
+[2018.03.31-05.36.12:641][616]LogBlueprintUserMessages: [Minimal_Default_C_1] Hello
+[2018.03.31-05.36.12:642][616]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.562
+[2018.03.31-05.36.12:642][616]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-05.36.14:695][862]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-05.36.14:722][862]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-05.36.29:087][258]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.31-05.36.29:098][258]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-05.36.29:098][258]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.31-05.36.29:098][258]PIE: New page: PIE session: Minimal_Default (31 Mar 2018 07:36:29)
+[2018.03.31-05.36.29:098][258]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.03.31-05.36.29:099][258]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001184s)
+[2018.03.31-05.36.29:100][258]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.03.31-05.36.29:100][258]LogPlayLevel: PIE: World Init took: (0.000479s)
+[2018.03.31-05.36.29:100][258]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.001780s)
+[2018.03.31-05.36.29:111][258]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.31-05.36.29:118][258]LogInit: FAudioDevice initialized.
+[2018.03.31-05.36.29:149][258]LogLoad: Game class is 'MyGameMode_C'
+[2018.03.31-05.36.29:151][258]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.03.31-06.36.29
+[2018.03.31-05.36.29:151][258]LogWorld: Bringing up level for play took: 0.000779
+[2018.03.31-05.36.29:152][258]Cmd: r.SetRes 1920x1080w
+[2018.03.31-05.36.29:152][258]r.SetRes = "1920x1080w"
+[2018.03.31-05.36.29:152][258]LogBlueprintUserMessages: [Minimal_Default_C_1] Hello
+[2018.03.31-05.36.29:153][258]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.927
+[2018.03.31-05.36.29:153][258]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-05.36.30:773][452]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-05.36.30:805][452]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-05.44.58:419][228]LogSavePackage: Save=60.93ms
+[2018.03.31-05.44.58:419][228]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/Minimal_Default_Auto2B9CC4BEC4D8551784FD1D1AA0CB87CA3.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap'
+[2018.03.31-05.44.58:420][228]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap
+[2018.03.31-05.44.58:422][228]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.087
+[2018.03.31-05.44.58:422][228]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.087
+[2018.03.31-06.12.12:997][441]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2018.03.31-06.12.25:584][946]LogMaterial: Missing cached shader map for material TargetMaterial1, compiling. 
+[2018.03.31-06.12.25:652][946]LogMaterial: Missing cached shader map for material TargetMaterial1, compiling. 
+[2018.03.31-06.12.25:663][946]LogMaterial: Missing cached shader map for material TargetMaterial1, compiling. 
+[2018.03.31-06.12.25:701][946]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.31-06.12.25:704][946]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.03.31-06.12.25:708][946]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.03.31-06.12.25:711][946]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.31-06.12.25:714][946]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2018.03.31-06.12.25:721][946]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.31-06.12.26:479][ 15]MaterialEditorStats: Info Default UI Pixel Shader: 35 instructions
+[2018.03.31-06.12.26:479][ 15]MaterialEditorStats: Info Default UI Vertex Shader: 20 instructions
+[2018.03.31-06.12.26:479][ 15]MaterialEditorStats: Info Instanced UI Vertex Shader: 20 instructions
+[2018.03.31-06.12.26:479][ 15]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.03.31-06.12.26:479][ 15]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.31-06.12.27:779][166]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.31-07.24.21:216][463]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.31-07.24.21:228][463]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-07.24.21:228][463]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.31-07.24.21:229][463]PIE: New page: PIE session: Minimal_Default (31 Mar 2018 09:24:21)
+[2018.03.31-07.24.21:229][463]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.03.31-07.24.21:230][463]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001275s)
+[2018.03.31-07.24.21:230][463]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.03.31-07.24.21:230][463]LogPlayLevel: PIE: World Init took: (0.000511s)
+[2018.03.31-07.24.21:230][463]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.001936s)
+[2018.03.31-07.24.21:243][463]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.31-07.24.21:250][463]LogInit: FAudioDevice initialized.
+[2018.03.31-07.24.21:279][463]LogLoad: Game class is 'MyGameMode_C'
+[2018.03.31-07.24.21:281][463]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.03.31-08.24.21
+[2018.03.31-07.24.21:281][463]LogWorld: Bringing up level for play took: 0.000809
+[2018.03.31-07.24.21:282][463]Cmd: r.SetRes 1920x1080w
+[2018.03.31-07.24.21:282][463]r.SetRes = "1920x1080w"
+[2018.03.31-07.24.21:282][463]LogBlueprintUserMessages: [Minimal_Default_C_2] Hello
+[2018.03.31-07.24.21:283][463]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.797
+[2018.03.31-07.24.21:283][463]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-07.24.23:730][756]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-07.24.23:761][756]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-22.53.10:557][401]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.31-22.53.10:569][401]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-22.53.10:569][401]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.31-22.53.10:570][401]PIE: New page: PIE session: Minimal_Default (1 Apr 2018 00:53:10)
+[2018.03.31-22.53.10:570][401]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.03.31-22.53.10:571][401]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001311s)
+[2018.03.31-22.53.10:571][401]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.03.31-22.53.10:571][401]LogPlayLevel: PIE: World Init took: (0.000501s)
+[2018.03.31-22.53.10:572][401]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.001962s)
+[2018.03.31-22.53.10:582][401]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.31-22.53.10:591][401]LogInit: FAudioDevice initialized.
+[2018.03.31-22.53.10:622][401]LogLoad: Game class is 'MyGameMode_C'
+[2018.03.31-22.53.10:624][401]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.03.31-23.53.10
+[2018.03.31-22.53.10:624][401]LogWorld: Bringing up level for play took: 0.000861
+[2018.03.31-22.53.10:626][401]Cmd: r.SetRes 1920x1080w
+[2018.03.31-22.53.10:626][401]r.SetRes = "1920x1080w"
+[2018.03.31-22.53.10:626][401]LogBlueprintUserMessages: [Minimal_Default_C_2] Hello
+[2018.03.31-22.53.10:627][401]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.546
+[2018.03.31-22.53.10:627][401]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-22.53.15:386][968]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-22.53.15:415][968]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.31-22.54.52:089][502]Candidate modules for hot reload:
+[2018.03.31-22.54.52:089][502]  Project16
+[2018.03.31-22.54.52:089][502]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Project16 -ModuleWithSuffix Project16 1511 Win64 Development -editorrecompile -canskiplink "C:/Users/sound/Documents/Unreal Projects/Project16/Project16.uproject" ]
+[2018.03.31-22.54.52:106][502]Warning: Starting HotReload took  0.0s.
+[2018.03.31-22.55.19:714][793]CompilerResultsLog: New page: Compilation - 1 Apr 2018 00:55:19
+[2018.03.31-22.55.19:714][793]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.03.31-22.55.19:714][793]CompilerResultsLog: Info Parsing headers for Project16Editor
+[2018.03.31-22.55.19:714][793]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\sound\Documents\Unreal Projects\Project16\Project16.uproject" "C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\Project16Editor\Development\Project16Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.03.31-22.55.19:714][793]CompilerResultsLog: Info Reflection code generated for Project16Editor in 3.1096429 seconds
+[2018.03.31-22.55.19:714][793]CompilerResultsLog: Info Performing 6 actions (4 in parallel)
+[2018.03.31-22.55.19:714][793]CompilerResultsLog: Info GameCharacter.cpp
+[2018.03.31-22.55.19:714][793]CompilerResultsLog: Info SceneController.cpp
+[2018.03.31-22.55.19:714][793]CompilerResultsLog: Info Project16.generated.cpp
+[2018.03.31-22.55.19:714][793]CompilerResultsLog: Info GrissburgSceneController.cpp
+[2018.03.31-22.55.19:714][793]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(65) : error C2374: 'F': redefinition; multiple initialization
+[2018.03.31-22.55.19:714][793]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(55) : note: see declaration of 'F'
+[2018.03.31-22.55.19:714][793]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(75) : error C2374: 'F': redefinition; multiple initialization
+[2018.03.31-22.55.19:714][793]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(55) : note: see declaration of 'F'
+[2018.03.31-22.55.19:714][793]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(85) : error C2374: 'F': redefinition; multiple initialization
+[2018.03.31-22.55.19:714][793]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(55) : note: see declaration of 'F'
+[2018.03.31-22.55.19:714][793]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(155) : warning C4996: 'ConstructObject': ConstructObject is deprecated. Use NewObject instead Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.03.31-22.55.19:714][793]CompilerResultsLog:Error: Error C:\Program Files\Epic Games\UE_4.16\Engine\Source\Runtime\CoreUObject\Public\UObject/Class.h(2938) : note: see declaration of 'ConstructObject'
+[2018.03.31-22.55.19:714][793]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(274) : error C2065: 'img1mat': undeclared identifier
+[2018.03.31-22.55.19:714][793]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(279) : error C2065: 'img1mat': undeclared identifier
+[2018.03.31-22.55.19:714][793]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\sound\Documents\Unreal Projects\Project16\Binaries\Win64\UE4Editor-Project16-1511.dll
+[2018.03.31-22.55.19:714][793]CompilerResultsLog: Info Total build time: 27.43 seconds (Local executor: 0.00 seconds)
+[2018.03.31-22.55.19:714][793]LogMainFrame: MainFrame: Module compiling took 27.627 seconds
+[2018.03.31-22.55.19:714][793]Warning: HotReload failed, recompile failed
+[2018.03.31-22.58.42:405][ 93]Candidate modules for hot reload:
+[2018.03.31-22.58.42:405][ 93]  Project16
+[2018.03.31-22.58.42:405][ 93]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Project16 -ModuleWithSuffix Project16 5638 Win64 Development -editorrecompile -canskiplink "C:/Users/sound/Documents/Unreal Projects/Project16/Project16.uproject" ]
+[2018.03.31-22.58.42:418][ 93]Warning: Starting HotReload took  0.1s.
+[2018.03.31-22.58.58:983][ 70]CompilerResultsLog: New page: Compilation - 1 Apr 2018 00:58:58
+[2018.03.31-22.58.58:983][ 70]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.03.31-22.58.58:983][ 70]CompilerResultsLog: Info Parsing headers for Project16Editor
+[2018.03.31-22.58.58:983][ 70]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\sound\Documents\Unreal Projects\Project16\Project16.uproject" "C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\Project16Editor\Development\Project16Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.03.31-22.58.58:983][ 70]CompilerResultsLog: Info Reflection code generated for Project16Editor in 3.0648581 seconds
+[2018.03.31-22.58.58:983][ 70]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2018.03.31-22.58.58:983][ 70]CompilerResultsLog: Info SceneController.cpp
+[2018.03.31-22.58.58:983][ 70]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(156) : warning C4996: 'ConstructObject': ConstructObject is deprecated. Use NewObject instead Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.03.31-22.58.58:984][ 70]CompilerResultsLog:Error: Error C:\Program Files\Epic Games\UE_4.16\Engine\Source\Runtime\CoreUObject\Public\UObject/Class.h(2938) : note: see declaration of 'ConstructObject'
+[2018.03.31-22.58.58:984][ 70]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(275) : error C2065: 'img1mat': undeclared identifier
+[2018.03.31-22.58.58:984][ 70]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(280) : error C2065: 'img1mat': undeclared identifier
+[2018.03.31-22.58.58:984][ 70]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\sound\Documents\Unreal Projects\Project16\Binaries\Win64\UE4Editor-Project16-5638.dll
+[2018.03.31-22.58.58:984][ 70]CompilerResultsLog: Info Total build time: 16.40 seconds (Local executor: 0.00 seconds)
+[2018.03.31-22.58.58:984][ 70]LogMainFrame: MainFrame: Module compiling took 16.580 seconds
+[2018.03.31-22.58.58:984][ 70]Warning: HotReload failed, recompile failed
+[2018.04.01-01.18.04:308][730]Candidate modules for hot reload:
+[2018.04.01-01.18.04:308][730]  Project16
+[2018.04.01-01.18.04:309][730]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Project16 -ModuleWithSuffix Project16 5637 Win64 Development -editorrecompile -canskiplink "C:/Users/sound/Documents/Unreal Projects/Project16/Project16.uproject" ]
+[2018.04.01-01.18.04:324][730]Warning: Starting HotReload took  0.0s.
+[2018.04.01-01.18.25:696][277]CompilerResultsLog: New page: Compilation - 1 Apr 2018 03:18:25
+[2018.04.01-01.18.25:696][277]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.04.01-01.18.25:696][277]CompilerResultsLog: Info Parsing headers for Project16Editor
+[2018.04.01-01.18.25:696][277]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\sound\Documents\Unreal Projects\Project16\Project16.uproject" "C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\Project16Editor\Development\Project16Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.01-01.18.25:696][277]CompilerResultsLog: Info Reflection code generated for Project16Editor in 3.1013227 seconds
+[2018.04.01-01.18.25:696][277]CompilerResultsLog: Info Performing 5 actions (4 in parallel)
+[2018.04.01-01.18.25:696][277]CompilerResultsLog: Info Project16.generated.cpp
+[2018.04.01-01.18.25:696][277]CompilerResultsLog: Info GrissburgSceneController.cpp
+[2018.04.01-01.18.25:696][277]CompilerResultsLog: Info SceneController.cpp
+[2018.04.01-01.18.25:696][277]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(156) : warning C4996: 'ConstructObject': ConstructObject is deprecated. Use NewObject instead Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.04.01-01.18.25:696][277]CompilerResultsLog:Error: Error C:\Program Files\Epic Games\UE_4.16\Engine\Source\Runtime\CoreUObject\Public\UObject/Class.h(2938) : note: see declaration of 'ConstructObject'
+[2018.04.01-01.18.25:696][277]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(275) : error C2065: 'img1mat': undeclared identifier
+[2018.04.01-01.18.25:696][277]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(280) : error C2065: 'img1mat': undeclared identifier
+[2018.04.01-01.18.25:696][277]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\sound\Documents\Unreal Projects\Project16\Binaries\Win64\UE4Editor-Project16-5637.dll
+[2018.04.01-01.18.25:696][277]CompilerResultsLog: Info Total build time: 21.21 seconds (Local executor: 0.00 seconds)
+[2018.04.01-01.18.25:696][277]LogMainFrame: MainFrame: Module compiling took 21.390 seconds
+[2018.04.01-01.18.25:696][277]Warning: HotReload failed, recompile failed
+[2018.04.01-01.18.34:712][345]LogVSAccessor:Warning: Couldn't goto line number '275' in 'C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp'
+[2018.04.01-01.54.46:947][229]Running C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Project16 Win64 Development -editorrecompile "C:/Users/sound/Documents/Unreal Projects/Project16/Project16.uproject" -invalidatemakefilesonly
+[2018.04.01-01.54.47:169][229]Invalidating makefiles only in this run.
+[2018.04.01-01.54.47:276][229]Candidate modules for hot reload:
+[2018.04.01-01.54.47:276][229]  Project16
+[2018.04.01-01.54.47:276][229]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Project16 -ModuleWithSuffix Project16 9089 Win64 Development -editorrecompile -canskiplink "C:/Users/sound/Documents/Unreal Projects/Project16/Project16.uproject" ]
+[2018.04.01-01.54.48:084][229]LogSlate: Took 0.000408 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.01-01.55.07:972][229]CompilerResultsLog: New page: Compilation - 1 Apr 2018 03:55:07
+[2018.04.01-01.55.07:972][229]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.04.01-01.55.07:972][229]CompilerResultsLog: Info Parsing headers for Project16Editor
+[2018.04.01-01.55.07:972][229]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\sound\Documents\Unreal Projects\Project16\Project16.uproject" "C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\Project16Editor\Development\Project16Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.01-01.55.07:972][229]CompilerResultsLog: Info Reflection code generated for Project16Editor in 2.7448392 seconds
+[2018.04.01-01.55.07:972][229]CompilerResultsLog: Info Performing 6 actions (4 in parallel)
+[2018.04.01-01.55.07:972][229]CompilerResultsLog: Info SceneController.cpp
+[2018.04.01-01.55.07:972][229]CompilerResultsLog: Info GrissburgSceneController.cpp
+[2018.04.01-01.55.07:972][229]CompilerResultsLog: Info Project16.generated.cpp
+[2018.04.01-01.55.07:972][229]CompilerResultsLog: Info M3dCharacter.cpp
+[2018.04.01-01.55.07:972][229]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(156) : warning C4996: 'ConstructObject': ConstructObject is deprecated. Use NewObject instead Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.04.01-01.55.07:972][229]CompilerResultsLog:Error: Error C:\Program Files\Epic Games\UE_4.16\Engine\Source\Runtime\CoreUObject\Public\UObject/Class.h(2938) : note: see declaration of 'ConstructObject'
+[2018.04.01-01.55.07:972][229]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(275) : error C2065: 'img1mat': undeclared identifier
+[2018.04.01-01.55.07:972][229]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(280) : error C2065: 'img1mat': undeclared identifier
+[2018.04.01-01.55.07:972][229]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(305) : error C2039: 'Tick': is not a member of 'TTuple<KeyType,ValueType>'
+[2018.04.01-01.55.07:972][229]CompilerResultsLog: Info         with
+[2018.04.01-01.55.07:972][229]CompilerResultsLog: Info         [
+[2018.04.01-01.55.07:972][229]CompilerResultsLog: Info             KeyType=int,
+[2018.04.01-01.55.07:972][229]CompilerResultsLog: Info             ValueType=AM3dActor
+[2018.04.01-01.55.07:972][229]CompilerResultsLog: Info         ]
+[2018.04.01-01.55.07:972][229]CompilerResultsLog:Error: Error C:\Program Files\Epic Games\UE_4.16\Engine\Source\Runtime\Core\Public\Templates/Tuple.h(567) : note: see declaration of 'TTuple<KeyType,ValueType>'
+[2018.04.01-01.55.07:972][229]CompilerResultsLog: Info         with
+[2018.04.01-01.55.07:972][229]CompilerResultsLog: Info         [
+[2018.04.01-01.55.07:972][229]CompilerResultsLog: Info             KeyType=int,
+[2018.04.01-01.55.07:972][229]CompilerResultsLog: Info             ValueType=AM3dActor
+[2018.04.01-01.55.07:972][229]CompilerResultsLog: Info         ]
+[2018.04.01-01.55.07:972][229]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(328) : error C2275: 'M3D': illegal use of this type as an expression
+[2018.04.01-01.55.07:972][229]CompilerResultsLog:Error: Error c:\users\sound\documents\unreal projects\project16\source\project16\SceneController.h(18) : note: see declaration of 'M3D'
+[2018.04.01-01.55.07:972][229]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(328) : error C2146: syntax error: missing ')' before identifier 'm3d_head'
+[2018.04.01-01.55.07:972][229]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(331) : error C2059: syntax error: '}'
+[2018.04.01-01.55.07:972][229]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\sound\Documents\Unreal Projects\Project16\Binaries\Win64\UE4Editor-Project16-9089.dll
+[2018.04.01-01.55.07:972][229]CompilerResultsLog: Info Total build time: 20.55 seconds (Local executor: 0.00 seconds)
+[2018.04.01-01.55.07:972][229]LogMainFrame: MainFrame: Module compiling took 20.698 seconds
+[2018.04.01-01.55.07:972][229]Warning: HotReload failed, recompile failed
+[2018.04.01-01.55.07:974][229]Warning: RebindPackages failed because the compiler could not be started.
+[2018.04.01-02.08.47:699][ 91]Candidate modules for hot reload:
+[2018.04.01-02.08.47:699][ 91]  Project16
+[2018.04.01-02.08.47:699][ 91]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Project16 -ModuleWithSuffix Project16 6214 Win64 Development -editorrecompile -canskiplink "C:/Users/sound/Documents/Unreal Projects/Project16/Project16.uproject" ]
+[2018.04.01-02.08.47:719][ 91]Warning: Starting HotReload took  0.0s.
+[2018.04.01-02.09.08:604][583]CompilerResultsLog: New page: Compilation - 1 Apr 2018 04:09:08
+[2018.04.01-02.09.08:605][583]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.04.01-02.09.08:605][583]CompilerResultsLog: Info Parsing headers for Project16Editor
+[2018.04.01-02.09.08:605][583]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\sound\Documents\Unreal Projects\Project16\Project16.uproject" "C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\Project16Editor\Development\Project16Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.01-02.09.08:605][583]CompilerResultsLog: Info Reflection code generated for Project16Editor in 3.0154721 seconds
+[2018.04.01-02.09.08:605][583]CompilerResultsLog: Info Performing 6 actions (4 in parallel)
+[2018.04.01-02.09.08:605][583]CompilerResultsLog: Info SceneController.cpp
+[2018.04.01-02.09.08:605][583]CompilerResultsLog: Info GrissburgSceneController.cpp
+[2018.04.01-02.09.08:605][583]CompilerResultsLog: Info M3dCharacter.cpp
+[2018.04.01-02.09.08:605][583]CompilerResultsLog: Info Project16.generated.cpp
+[2018.04.01-02.09.08:605][583]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(156) : warning C4996: 'ConstructObject': ConstructObject is deprecated. Use NewObject instead Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.04.01-02.09.08:605][583]CompilerResultsLog:Error: Error C:\Program Files\Epic Games\UE_4.16\Engine\Source\Runtime\CoreUObject\Public\UObject/Class.h(2938) : note: see declaration of 'ConstructObject'
+[2018.04.01-02.09.08:605][583]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(282) : error C2065: 'img1mat': undeclared identifier
+[2018.04.01-02.09.08:605][583]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(287) : error C2065: 'img1mat': undeclared identifier
+[2018.04.01-02.09.08:605][583]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(314) : error C2039: 'Update': is not a member of 'TTuple<KeyType,ValueType>'
+[2018.04.01-02.09.08:605][583]CompilerResultsLog: Info         with
+[2018.04.01-02.09.08:605][583]CompilerResultsLog: Info         [
+[2018.04.01-02.09.08:605][583]CompilerResultsLog: Info             KeyType=int,
+[2018.04.01-02.09.08:605][583]CompilerResultsLog: Info             ValueType=M3dCharacter
+[2018.04.01-02.09.08:605][583]CompilerResultsLog: Info         ]
+[2018.04.01-02.09.08:605][583]CompilerResultsLog:Error: Error C:\Program Files\Epic Games\UE_4.16\Engine\Source\Runtime\Core\Public\Templates/Tuple.h(567) : note: see declaration of 'TTuple<KeyType,ValueType>'
+[2018.04.01-02.09.08:605][583]CompilerResultsLog: Info         with
+[2018.04.01-02.09.08:605][583]CompilerResultsLog: Info         [
+[2018.04.01-02.09.08:605][583]CompilerResultsLog: Info             KeyType=int,
+[2018.04.01-02.09.08:605][583]CompilerResultsLog: Info             ValueType=M3dCharacter
+[2018.04.01-02.09.08:605][583]CompilerResultsLog: Info         ]
+[2018.04.01-02.09.08:605][583]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\sound\Documents\Unreal Projects\Project16\Binaries\Win64\UE4Editor-Project16-6214.dll
+[2018.04.01-02.09.08:605][583]CompilerResultsLog: Info Total build time: 20.72 seconds (Local executor: 0.00 seconds)
+[2018.04.01-02.09.08:605][583]LogMainFrame: MainFrame: Module compiling took 20.908 seconds
+[2018.04.01-02.09.08:605][583]Warning: HotReload failed, recompile failed
+[2018.04.01-02.41.44:976][693]Candidate modules for hot reload:
+[2018.04.01-02.41.44:976][693]  Project16
+[2018.04.01-02.41.44:976][693]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Project16 -ModuleWithSuffix Project16 217 Win64 Development -editorrecompile -canskiplink "C:/Users/sound/Documents/Unreal Projects/Project16/Project16.uproject" ]
+[2018.04.01-02.41.44:997][693]Warning: Starting HotReload took  0.1s.
+[2018.04.01-02.42.05:318][116]CompilerResultsLog: New page: Compilation - 1 Apr 2018 04:42:05
+[2018.04.01-02.42.05:318][116]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.04.01-02.42.05:318][116]CompilerResultsLog: Info Parsing headers for Project16Editor
+[2018.04.01-02.42.05:318][116]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\sound\Documents\Unreal Projects\Project16\Project16.uproject" "C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\Project16Editor\Development\Project16Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.01-02.42.05:318][116]CompilerResultsLog: Info Reflection code generated for Project16Editor in 3.0164129 seconds
+[2018.04.01-02.42.05:318][116]CompilerResultsLog: Info Performing 5 actions (4 in parallel)
+[2018.04.01-02.42.05:318][116]CompilerResultsLog: Info GrissburgSceneController.cpp
+[2018.04.01-02.42.05:318][116]CompilerResultsLog: Info SceneController.cpp
+[2018.04.01-02.42.05:318][116]CompilerResultsLog: Info Project16.generated.cpp
+[2018.04.01-02.42.05:318][116]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(156) : warning C4996: 'ConstructObject': ConstructObject is deprecated. Use NewObject instead Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.04.01-02.42.05:318][116]CompilerResultsLog:Error: Error C:\Program Files\Epic Games\UE_4.16\Engine\Source\Runtime\CoreUObject\Public\UObject/Class.h(2938) : note: see declaration of 'ConstructObject'
+[2018.04.01-02.42.05:318][116]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(314) : error C2039: 'Update': is not a member of 'TTuple<KeyType,ValueType>'
+[2018.04.01-02.42.05:318][116]CompilerResultsLog: Info         with
+[2018.04.01-02.42.05:318][116]CompilerResultsLog: Info         [
+[2018.04.01-02.42.05:318][116]CompilerResultsLog: Info             KeyType=int,
+[2018.04.01-02.42.05:318][116]CompilerResultsLog: Info             ValueType=M3dCharacter
+[2018.04.01-02.42.05:318][116]CompilerResultsLog: Info         ]
+[2018.04.01-02.42.05:318][116]CompilerResultsLog:Error: Error C:\Program Files\Epic Games\UE_4.16\Engine\Source\Runtime\Core\Public\Templates/Tuple.h(567) : note: see declaration of 'TTuple<KeyType,ValueType>'
+[2018.04.01-02.42.05:318][116]CompilerResultsLog: Info         with
+[2018.04.01-02.42.05:318][116]CompilerResultsLog: Info         [
+[2018.04.01-02.42.05:318][116]CompilerResultsLog: Info             KeyType=int,
+[2018.04.01-02.42.05:318][116]CompilerResultsLog: Info             ValueType=M3dCharacter
+[2018.04.01-02.42.05:318][116]CompilerResultsLog: Info         ]
+[2018.04.01-02.42.05:318][116]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\sound\Documents\Unreal Projects\Project16\Binaries\Win64\UE4Editor-Project16-217.dll
+[2018.04.01-02.42.05:318][116]CompilerResultsLog: Info Total build time: 20.15 seconds (Local executor: 0.00 seconds)
+[2018.04.01-02.42.05:318][116]LogMainFrame: MainFrame: Module compiling took 20.345 seconds
+[2018.04.01-02.42.05:318][116]Warning: HotReload failed, recompile failed
+[2018.04.01-02.45.27:363][ 43]Candidate modules for hot reload:
+[2018.04.01-02.45.27:363][ 43]  Project16
+[2018.04.01-02.45.27:363][ 43]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Project16 -ModuleWithSuffix Project16 5605 Win64 Development -editorrecompile -canskiplink "C:/Users/sound/Documents/Unreal Projects/Project16/Project16.uproject" ]
+[2018.04.01-02.45.27:376][ 43]Warning: Starting HotReload took  0.0s.
+[2018.04.01-02.45.44:077][ 37]CompilerResultsLog: New page: Compilation - 1 Apr 2018 04:45:44
+[2018.04.01-02.45.44:077][ 37]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.04.01-02.45.44:077][ 37]CompilerResultsLog: Info Parsing headers for Project16Editor
+[2018.04.01-02.45.44:077][ 37]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\sound\Documents\Unreal Projects\Project16\Project16.uproject" "C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\Project16Editor\Development\Project16Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.01-02.45.44:077][ 37]CompilerResultsLog: Info Reflection code generated for Project16Editor in 3.066661 seconds
+[2018.04.01-02.45.44:077][ 37]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2018.04.01-02.45.44:077][ 37]CompilerResultsLog: Info SceneController.cpp
+[2018.04.01-02.45.44:077][ 37]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(156) : warning C4996: 'ConstructObject': ConstructObject is deprecated. Use NewObject instead Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.04.01-02.45.44:077][ 37]CompilerResultsLog:Error: Error C:\Program Files\Epic Games\UE_4.16\Engine\Source\Runtime\CoreUObject\Public\UObject/Class.h(2938) : note: see declaration of 'ConstructObject'
+[2018.04.01-02.45.44:077][ 37]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(320) : error C2662: 'void M3dCharacter::Update(float)': cannot convert 'this' pointer from 'const M3dCharacter' to 'M3dCharacter &'
+[2018.04.01-02.45.44:077][ 37]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(320) : note: Conversion loses qualifiers
+[2018.04.01-02.45.44:077][ 37]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\sound\Documents\Unreal Projects\Project16\Binaries\Win64\UE4Editor-Project16-5605.dll
+[2018.04.01-02.45.44:077][ 37]CompilerResultsLog: Info Total build time: 16.53 seconds (Local executor: 0.00 seconds)
+[2018.04.01-02.45.44:077][ 37]LogMainFrame: MainFrame: Module compiling took 16.716 seconds
+[2018.04.01-02.45.44:077][ 37]Warning: HotReload failed, recompile failed
+[2018.04.01-02.46.13:839][501]Candidate modules for hot reload:
+[2018.04.01-02.46.13:839][501]  Project16
+[2018.04.01-02.46.13:839][501]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Project16 -ModuleWithSuffix Project16 2134 Win64 Development -editorrecompile -canskiplink "C:/Users/sound/Documents/Unreal Projects/Project16/Project16.uproject" ]
+[2018.04.01-02.46.13:851][501]Warning: Starting HotReload took  0.0s.
+[2018.04.01-02.46.30:213][456]CompilerResultsLog: New page: Compilation - 1 Apr 2018 04:46:30
+[2018.04.01-02.46.30:213][456]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.04.01-02.46.30:213][456]CompilerResultsLog: Info Parsing headers for Project16Editor
+[2018.04.01-02.46.30:213][456]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\sound\Documents\Unreal Projects\Project16\Project16.uproject" "C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\Project16Editor\Development\Project16Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.01-02.46.30:213][456]CompilerResultsLog: Info Reflection code generated for Project16Editor in 3.0664482 seconds
+[2018.04.01-02.46.30:213][456]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2018.04.01-02.46.30:213][456]CompilerResultsLog: Info SceneController.cpp
+[2018.04.01-02.46.30:213][456]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(156) : warning C4996: 'ConstructObject': ConstructObject is deprecated. Use NewObject instead Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.04.01-02.46.30:213][456]CompilerResultsLog:Error: Error C:\Program Files\Epic Games\UE_4.16\Engine\Source\Runtime\CoreUObject\Public\UObject/Class.h(2938) : note: see declaration of 'ConstructObject'
+[2018.04.01-02.46.30:214][456]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(320) : error C2662: 'void M3dCharacter::Update(float)': cannot convert 'this' pointer from 'const M3dCharacter' to 'M3dCharacter &'
+[2018.04.01-02.46.30:214][456]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(320) : note: Conversion loses qualifiers
+[2018.04.01-02.46.30:214][456]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\sound\Documents\Unreal Projects\Project16\Binaries\Win64\UE4Editor-Project16-2134.dll
+[2018.04.01-02.46.30:214][456]CompilerResultsLog: Info Total build time: 16.20 seconds (Local executor: 0.00 seconds)
+[2018.04.01-02.46.30:214][456]LogMainFrame: MainFrame: Module compiling took 16.377 seconds
+[2018.04.01-02.46.30:214][456]Warning: HotReload failed, recompile failed
+[2018.04.01-02.48.25:486][695]Candidate modules for hot reload:
+[2018.04.01-02.48.25:486][695]  Project16
+[2018.04.01-02.48.25:486][695]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Project16 -ModuleWithSuffix Project16 5769 Win64 Development -editorrecompile -canskiplink "C:/Users/sound/Documents/Unreal Projects/Project16/Project16.uproject" ]
+[2018.04.01-02.48.25:501][695]Warning: Starting HotReload took  0.0s.
+[2018.04.01-02.48.42:283][698]CompilerResultsLog: New page: Compilation - 1 Apr 2018 04:48:42
+[2018.04.01-02.48.42:283][698]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.04.01-02.48.42:283][698]CompilerResultsLog: Info Parsing headers for Project16Editor
+[2018.04.01-02.48.42:283][698]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\sound\Documents\Unreal Projects\Project16\Project16.uproject" "C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\Project16Editor\Development\Project16Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.01-02.48.42:283][698]CompilerResultsLog: Info Reflection code generated for Project16Editor in 3.0497282 seconds
+[2018.04.01-02.48.42:284][698]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2018.04.01-02.48.42:284][698]CompilerResultsLog: Info SceneController.cpp
+[2018.04.01-02.48.42:284][698]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(156) : warning C4996: 'ConstructObject': ConstructObject is deprecated. Use NewObject instead Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.04.01-02.48.42:284][698]CompilerResultsLog:Error: Error C:\Program Files\Epic Games\UE_4.16\Engine\Source\Runtime\CoreUObject\Public\UObject/Class.h(2938) : note: see declaration of 'ConstructObject'
+[2018.04.01-02.48.42:284][698]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(320) : error C2662: 'void M3dCharacter::Update(float)': cannot convert 'this' pointer from 'const M3dCharacter' to 'M3dCharacter &'
+[2018.04.01-02.48.42:284][698]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(320) : note: Conversion loses qualifiers
+[2018.04.01-02.48.42:284][698]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\sound\Documents\Unreal Projects\Project16\Binaries\Win64\UE4Editor-Project16-5769.dll
+[2018.04.01-02.48.42:284][698]CompilerResultsLog: Info Total build time: 16.61 seconds (Local executor: 0.00 seconds)
+[2018.04.01-02.48.42:284][698]LogMainFrame: MainFrame: Module compiling took 16.800 seconds
+[2018.04.01-02.48.42:284][698]Warning: HotReload failed, recompile failed
+[2018.04.01-02.49.46:982][290]Candidate modules for hot reload:
+[2018.04.01-02.49.46:982][290]  Project16
+[2018.04.01-02.49.46:982][290]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Project16 -ModuleWithSuffix Project16 286 Win64 Development -editorrecompile -canskiplink "C:/Users/sound/Documents/Unreal Projects/Project16/Project16.uproject" ]
+[2018.04.01-02.49.46:996][290]Warning: Starting HotReload took  0.0s.
+[2018.04.01-02.50.06:437][611]CompilerResultsLog: New page: Compilation - 1 Apr 2018 04:50:06
+[2018.04.01-02.50.06:437][611]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.04.01-02.50.06:437][611]CompilerResultsLog: Info Parsing headers for Project16Editor
+[2018.04.01-02.50.06:437][611]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\sound\Documents\Unreal Projects\Project16\Project16.uproject" "C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\Project16Editor\Development\Project16Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.01-02.50.06:437][611]CompilerResultsLog: Info Reflection code generated for Project16Editor in 3.0937792 seconds
+[2018.04.01-02.50.06:437][611]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2018.04.01-02.50.06:437][611]CompilerResultsLog: Info SceneController.cpp
+[2018.04.01-02.50.06:437][611]CompilerResultsLog:Error: Error C:\Users\sound\Documents\Unreal Projects\Project16\Source\Project16\SceneController.cpp(156) : warning C4996: 'ConstructObject': ConstructObject is deprecated. Use NewObject instead Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.04.01-02.50.06:437][611]CompilerResultsLog:Error: Error C:\Program Files\Epic Games\UE_4.16\Engine\Source\Runtime\CoreUObject\Public\UObject/Class.h(2938) : note: see declaration of 'ConstructObject'
+[2018.04.01-02.50.06:437][611]CompilerResultsLog: Info [2/3] Link UE4Editor-Project16-286.dll
+[2018.04.01-02.50.06:437][611]CompilerResultsLog: Info [3/3] Link UE4Editor-Project16-286.lib
+[2018.04.01-02.50.06:437][611]CompilerResultsLog: Info    Creating library C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Project16-286.lib and object C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Project16-286.exp
+[2018.04.01-02.50.06:437][611]CompilerResultsLog: Info    Creating library C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Project16-286.suppressed.lib and object C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Project16-286.suppressed.exp
+[2018.04.01-02.50.06:437][611]CompilerResultsLog: Info Total build time: 19.27 seconds (Local executor: 14.27 seconds)
+[2018.04.01-02.50.06:437][611]LogMainFrame: MainFrame: Module compiling took 19.458 seconds
+[2018.04.01-02.50.06:508][611]LogClass: Could not find existing class GameCharacter in package /Script/Project16 for HotReload, assuming new class
+[2018.04.01-02.50.06:509][611]LogClass: Could not find existing class SceneController in package /Script/Project16 for HotReload, assuming new class
+[2018.04.01-02.50.06:509][611]LogClass: Could not find existing class GrissburgSceneController in package /Script/Project16 for HotReload, assuming new class
+[2018.04.01-02.50.06:514][611]LogWindows: Windows GetLastError: The operation completed successfully. (0)

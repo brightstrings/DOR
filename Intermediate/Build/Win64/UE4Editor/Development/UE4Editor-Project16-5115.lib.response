@@ -1,0 +1,21 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Project16-5115.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Program Files\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\Project16\GrissburgSceneController.cpp.obj"
+"C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\Project16\LightActor.cpp.obj"
+"C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\Project16\M3dCharacter.cpp.obj"
+"C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\Project16\OvodusButton.cpp.obj"
+"C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\Project16\Project16.cpp.obj"
+"C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\Project16\SceneController.cpp.obj"
+"C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\Project16\SEQ.cpp.obj"
+"C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\Project16\SoundManager2.cpp.obj"
+"C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\Project16\Util.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\Project16\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Project16-5115.lib"

@@ -1,0 +1,2 @@
+I'm ready to do rotation about a point, save pivot x,y,z to a temp vector
+in ue4

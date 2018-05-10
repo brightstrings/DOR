@@ -1,0 +1,27 @@
+﻿  Cleaning Project16Editor Binaries...
+  Compiling game modules for hot reload
+  Compiling game modules for hot reload
+  Performing full C++ include scan (no include cache file)
+  Parsing headers for Project16Editor
+    Running UnrealHeaderTool "C:\Users\sound\Documents\Unreal Projects\Project16\Project16.uproject" "C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\Project16Editor\Development\Project16Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for Project16Editor in 3.0499797 seconds
+  Performing 15 actions (4 in parallel)
+  [2/15] Resource ModuleVersionResource.rc.inl
+  [3/15] Resource PCLaunch.rc
+  SharedPCH.Engine.cpp
+  GrissburgSceneController.cpp
+  M3dCharacter.cpp
+  OvodusButton.cpp
+  LightActor.cpp
+  Project16.cpp
+  SceneController.cpp
+  SEQ.cpp
+  SoundManager2.cpp
+  Util.cpp
+  Project16.generated.cpp
+  [14/15] Link UE4Editor-Project16-9816.dll
+  [15/15] Link UE4Editor-Project16-9816.lib
+     Creating library C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Project16-9816.lib and object C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Project16-9816.exp
+     Creating library C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Project16-9816.suppressed.lib and object C:\Users\sound\Documents\Unreal Projects\Project16\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Project16-9816.suppressed.exp
+  Deploying Project16Editor Win64 Development...
+  Total build time: 27.40 seconds (Local executor: 21.98 seconds)

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Project16.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{3F4A0433-A48F-4455-B51D-563B62041B77}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Project16.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Project16Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{58A074B4-0728-42DD-B54F-C144EAF76F3D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Project16">
+      <UniqueIdentifier>{18FBB6BF-3537-45EB-AFF3-36B18434ECA2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Project16\GrissburgSceneController.cpp">
+      <Filter>Source\Project16</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project16\GrissburgSceneController.h">
+      <Filter>Source\Project16</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Project16\M3dCharacter.cpp">
+      <Filter>Source\Project16</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project16\M3dCharacter.h">
+      <Filter>Source\Project16</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Project16\Project16.Build.cs">
+      <Filter>Source\Project16</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Project16\Project16.cpp">
+      <Filter>Source\Project16</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project16\Project16.h">
+      <Filter>Source\Project16</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Project16\SceneController.cpp">
+      <Filter>Source\Project16</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project16\SceneController.h">
+      <Filter>Source\Project16</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Project16\SEQ.cpp">
+      <Filter>Source\Project16</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project16\SEQ.h">
+      <Filter>Source\Project16</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Project16\SoundManager2.cpp">
+      <Filter>Source\Project16</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project16\SoundManager2.h">
+      <Filter>Source\Project16</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Project16\LightActor.h">
+      <Filter>Source\Project16</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Project16\OvodusButton.h">
+      <Filter>Source\Project16</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Project16\LightActor.cpp">
+      <Filter>Source\Project16</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Project16\OvodusButton.cpp">
+      <Filter>Source\Project16</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

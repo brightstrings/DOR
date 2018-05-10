@@ -1,0 +1,426 @@
+﻿Log file open, 04/26/18 12:24:43
+LogInit:Display: Running engine for game: Project16
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1913444762) SRandInit(1913444762).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.079216
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.26-11.24.44:292][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.26-11.24.44:292][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.26-11.24.44:300][  0]LogInit: Computer: DESKTOP-P3QBLFC
+[2018.04.26-11.24.44:300][  0]LogInit: User: sound
+[2018.04.26-11.24.44:300][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.26-11.24.44:300][  0]LogInit: High frequency timer resolution =4.101566 MHz
+[2018.04.26-11.24.44:300][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.04.26-11.24.44:300][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.26-11.24.44:300][  0]LogMemory: Process Physical Memory: 272.65 MB used, 272.65 MB peak
+[2018.04.26-11.24.44:300][  0]LogMemory: Process Virtual Memory: 260.92 MB used, 260.92 MB peak
+[2018.04.26-11.24.44:300][  0]LogMemory: Physical Memory: 7204.88 MB used,  9131.68 MB free, 16336.55 MB total
+[2018.04.26-11.24.44:300][  0]LogMemory: Virtual Memory: 671.82 MB used,  9131.68 MB free, 134217728.00 MB total
+[2018.04.26-11.24.44:350][  0]LogInit: Using OS detected language (en-GB).
+[2018.04.26-11.24.44:350][  0]LogInit: Using OS detected locale (en-GB).
+[2018.04.26-11.24.44:353][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.04.26-11.24.44:984][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.26-11.24.45:023][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2018.04.26-11.24.45:023][  0]LogD3D11RHI:       8086/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.04.26-11.24.45:024][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.26-11.24.45:024][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.26-11.24.45:024][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.26-11.24.45:028][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.26-11.24.45:028][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.26-11.24.45:028][  0]LogWindows: EnumDisplayDevices:
+[2018.04.26-11.24.45:028][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2018.04.26-11.24.45:029][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.04.26-11.24.45:029][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.04.26-11.24.45:029][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.04.26-11.24.45:029][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.26-11.24.45:029][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2018.04.26-11.24.45:029][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.26-11.24.45:029][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.26-11.24.45:029][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.04.26-11.24.45:052][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.26-11.24.45:070][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.04.26-11.24.45:117][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/sound/Documents/Unreal Projects/Project16/Intermediate/Shaders/WorkingDirectory/12196/).
+[2018.04.26-11.24.45:117][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/sound/AppData/Local/Temp/UnrealShaderWorkingDir/ABCE9F6E4B2CCD5FB8662CABE31ED26D/'.
+[2018.04.26-11.24.45:117][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.04.26-11.24.45:858][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.26-11.24.45:893][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.04.26-11.24.45:929][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.26-11.24.45:966][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.04.26-11.24.46:002][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.04.26-11.24.46:039][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.26-11.24.46:076][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.26-11.24.46:113][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.26-11.24.46:147][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.04.26-11.24.46:181][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.04.26-11.24.46:218][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.26-11.24.46:252][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.26-11.24.46:286][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.26-11.24.46:321][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.26-11.24.46:358][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.26-11.24.46:428][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.26-11.24.46:428][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.26-11.24.46:457][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.04.26-11.24.46:532][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.04.26-11.24.46:554][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.04.26-11.24.46:593][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.26-11.24.46:629][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.26-11.24.46:663][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.26-11.24.46:698][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.04.26-11.24.46:698][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.04.26-11.24.47:060][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.04.26-11.24.47:121][  0]LogDerivedDataCache: Loaded boot cache 0.06s 90MB C:/Users/sound/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.04.26-11.24.47:121][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/sound/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.04.26-11.24.47:121][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/sound/Documents/Unreal Projects/Project16/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.26-11.24.47:121][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.26-11.24.47:121][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/sound/Documents/Unreal Projects/Project16/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.26-11.24.47:121][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.26-11.24.47:132][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.26-11.24.47:144][  0]LogDerivedDataCache: Using Local data cache path C:/Users/sound/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.26-11.24.47:150][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.26-11.24.47:150][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.26-11.24.47:151][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.26-11.24.47:151][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.26-11.24.47:392][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.26-11.24.47:451][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.04.26-11.24.47:570][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.26-11.24.47:602][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.26-11.24.47:637][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.26-11.24.47:637][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.04.26-11.24.47:637][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.04.26-11.24.48:036][  0]LogNetVersion: Project16 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2933532304)
+[2018.04.26-11.24.48:087][  0]LogAssetRegistry: FAssetRegistry took 0.0251 seconds to start up
+[2018.04.26-11.24.48:132][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.025661 seconds
+[2018.04.26-11.24.48:136][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.04.26-11.24.48:136][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2018.04.26-11.24.48:136][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.26-11.24.48:183][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.26-11.24.49:951][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.26-11.24.49:983][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.26-11.24.50:457][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.26-11.24.50:747][  0]SourceControl: Info Source control is disabled
+[2018.04.26-11.24.50:843][  0]SourceControl: Info Source control is disabled
+[2018.04.26-11.24.50:884][  0]SourceControl: Info Source control is disabled
+[2018.04.26-11.24.50:922][  0]SourceControl: Info Source control is disabled
+[2018.04.26-11.24.51:432][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.26-11.24.51:875][  0]LogEngine: Initializing Engine...
+[2018.04.26-11.24.51:875][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.04.26-11.24.52:003][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.26-11.24.52:003][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.26-11.24.52:104][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.26-11.24.52:113][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.26-11.24.52:124][  0]LogInit: FAudioDevice initialized.
+[2018.04.26-11.24.52:157][  0]LogDerivedDataCache: Saved boot cache 0.03s 90MB C:/Users/sound/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.04.26-11.24.52:167][  0]LogInit: Texture streaming: Enabled
+[2018.04.26-11.24.52:235][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.26-11.24.52:255][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={8EC45980-40F7-AF7D-C537-B6A2EBDB5BE9}
+[2018.04.26-11.24.52:414][  0]LogInit: Transaction tracking system initialized
+[2018.04.26-11.24.52:640][  0]BlueprintLog: New page: Editor Load
+[2018.04.26-11.24.53:319][  0]LocalizationService: Info Localization service is disabled
+[2018.04.26-11.24.53:822][  0]LogConsoleResponse:Display: 
+[2018.04.26-11.24.53:932][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.26-11.24.53:932][  0]LogCook:Display: Mobile HDR setting 1
+[2018.04.26-11.24.54:695][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sound/Documents/Unreal Projects/Project16/Content/' took 0.06s
+[2018.04.26-11.24.54:695][  0]SourceControl: Info Source control is disabled
+[2018.04.26-11.24.54:696][  0]Cmd: MAP LOAD FILE="../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.26-11.24.54:696][  0]LightingResults: New page: Lighting Build
+[2018.04.26-11.24.54:727][  0]MapCheck: New page: Map Check
+[2018.04.26-11.24.54:727][  0]LightingResults: New page: Lighting Build
+[2018.04.26-11.24.54:750][  0]LogBlueprint:Warning: [UI] 'Image_91' variable not found. Base class was probably changed.
+[2018.04.26-11.24.54:750][  0]LogBlueprint:Warning: [UI] 'Image_51' variable not found. Base class was probably changed.
+[2018.04.26-11.24.54:750][  0]LogBlueprint:Warning: [UI] 'Image_173' variable not found. Base class was probably changed.
+[2018.04.26-11.24.54:761][  0]LogBlueprint:Warning: [Minimal_Default] 'focus_light' variable not found. Base class was probably changed.
+[2018.04.26-11.24.54:761][  0]LogBlueprint:Warning: [Minimal_Default] 'focus_light' variable not found. Base class was probably changed.
+[2018.04.26-11.24.54:794][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Warning Could not find a variable named "focus_light" in 'SceneController'.
+Make sure 'SceneController' has been compiled for  Set focus_light
+[2018.04.26-11.24.54:808][  0]LogBlueprint:Error: [Compiler PersistentLevel.Minimal_Default] Error The property associated with  Focus Light  could not be found
+[2018.04.26-11.24.54:810][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Warning [0011.89] Compile of PersistentLevel.Minimal_Default failed. 1 Fatal Issue(s) 1 Warning(s) [in 48 ms] (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default)
+[2018.04.26-11.24.54:810][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Warning [0011.89] Compile of PersistentLevel.Minimal_Default failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default)
+[2018.04.26-11.24.54:810][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Warning [0011.89] Compile of PersistentLevel.Minimal_Default failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default)
+[2018.04.26-11.24.54:810][  0]LogBlueprint:Warning: [Minimal_Default] 'focus_light' variable not found. Base class was probably changed.
+[2018.04.26-11.24.54:810][  0]LogBlueprint:Warning: [Minimal_Default] 'focus_light' variable not found. Base class was probably changed.
+[2018.04.26-11.24.54:812][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Warning Could not find a variable named "focus_light" in 'SceneController'.
+Make sure 'SceneController' has been compiled for  Set focus_light
+[2018.04.26-11.24.54:812][  0]LogBlueprint:Error: [Compiler PersistentLevel.Minimal_Default] Error The property associated with  Focus Light  could not be found
+[2018.04.26-11.24.54:814][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Warning [0011.90] Compile of PersistentLevel.Minimal_Default failed. 1 Fatal Issue(s) 1 Warning(s) [in 3 ms] (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default)
+[2018.04.26-11.24.54:814][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Warning [0011.90] Compile of PersistentLevel.Minimal_Default failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default)
+[2018.04.26-11.24.54:814][  0]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Warning [0011.90] Compile of PersistentLevel.Minimal_Default failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default)
+[2018.04.26-11.24.54:845][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.04.26-11.24.54:849][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.26-11.24.54:855][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.26-11.24.54:888][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.962ms to complete.
+[2018.04.26-11.24.54:888][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.192
+[2018.04.26-11.24.54:938][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.04.26-11.24.54:995][  0]LogCollectionManager: Loaded 0 collections in 0.001261 seconds
+[2018.04.26-11.24.55:060][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sound/Documents/Unreal Projects/Project16/Saved/Collections/' took 0.01s
+[2018.04.26-11.24.55:060][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sound/Documents/Unreal Projects/Project16/Content/Developers/sound/Collections/' took 0.01s
+[2018.04.26-11.24.55:060][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sound/Documents/Unreal Projects/Project16/Content/Collections/' took 0.01s
+[2018.04.26-11.24.55:060][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.04.26-11.24.55:067][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2338 classes and 493 folders.
+[2018.04.26-11.24.55:115][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2018.04.26-11.24.55:148][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2018.04.26-11.24.55:179][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2018.04.26-11.24.55:233][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.04.26-11.24.55:237][  0]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.26-11.24.55:239][  0]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.26-11.24.55:243][  0]LogSlate: Took 0.000276 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.26-11.24.55:321][  0]LogRenderer: Reallocating scene render targets to support 232x300 NumSamples 1 (Frame:1).
+[2018.04.26-11.24.55:338][  0]LogRenderer: Reallocating scene render targets to support 1072x576 NumSamples 1 (Frame:1).
+[2018.04.26-11.24.55:357][  0]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.26-11.24.55:415][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.04.26-11.24.55:468][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2018.04.26-11.24.55:468][  0]LogLoad: (Engine Initialization) Total time: 12.55 seconds
+[2018.04.26-11.24.55:468][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.09 seconds
+[2018.04.26-11.24.55:468][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.04.26-11.24.55:468][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.04.26-11.24.55:477][  0]LogOcInput: OculusInput pre-init called
+[2018.04.26-11.24.55:477][  0]LogHMD: Starting GearVRController plugin
+[2018.04.26-11.24.55:498][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.26-11.24.55:520][  1]LogAssetRegistry: Asset discovery search completed in 7.4550 seconds
+[2018.04.26-11.24.55:522][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.04.26-11.24.55:522][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
+[2018.04.26-11.24.58:963][410]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.26-11.24.59:030][410]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.26-11.24.59:030][410]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.26-11.24.59:030][410]LogPlayLevel: [PlayLevel] Compiling Minimal_Default before play...
+[2018.04.26-11.24.59:040][410]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Warning Could not find a variable named "focus_light" in 'SceneController'.
+Make sure 'SceneController' has been compiled for  Set focus_light
+[2018.04.26-11.24.59:041][410]LogBlueprint:Error: [Compiler PersistentLevel.Minimal_Default] Error The property associated with  Focus Light  could not be found
+[2018.04.26-11.24.59:087][410]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Warning [0016.17] Compile of PersistentLevel.Minimal_Default failed. 1 Fatal Issue(s) 1 Warning(s) [in 51 ms] (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default)
+[2018.04.26-11.24.59:196][410]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Warning [0016.28] Compile of PersistentLevel.Minimal_Default failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default)
+[2018.04.26-11.24.59:196][410]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Warning [0016.28] Compile of PersistentLevel.Minimal_Default failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default)
+[2018.04.26-11.24.59:196][410]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Warning [0016.28] Compile of PersistentLevel.Minimal_Default failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default)
+[2018.04.26-11.24.59:196][410]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Warning [0016.28] Compile of PersistentLevel.Minimal_Default failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default)
+[2018.04.26-11.24.59:196][410]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Warning [0016.28] Compile of PersistentLevel.Minimal_Default failed. 1 Fatal Issue(s) 6 Warning(s) [in 0 ms] (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default)
+[2018.04.26-11.24.59:205][410]LogPlayLevel: PlayLevel: Blueprint regeneration took 175 ms (1 blueprints)
+[2018.04.26-11.24.59:206][410]BlueprintLog: Info Blueprint Minimal_Default failed to compile
+[2018.04.26-11.25.04:617][577]Candidate modules for hot reload:
+[2018.04.26-11.25.04:617][577]  Project16
+[2018.04.26-11.25.04:617][577]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Project16 -ModuleWithSuffix Project16 571 Win64 Development -editorrecompile -canskiplink "C:/Users/sound/Documents/Unreal Projects/Project16/Project16.uproject" ]
+[2018.04.26-11.25.04:621][577]Warning: Starting HotReload took  0.0s.
+[2018.04.26-11.25.06:520][805]CompilerResultsLog: New page: Compilation - 26 Apr 2018 13:25:06
+[2018.04.26-11.25.06:520][805]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.04.26-11.25.06:520][805]CompilerResultsLog: Info Target is up to date
+[2018.04.26-11.25.06:520][805]CompilerResultsLog: Info Total build time: 1.74 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.04.26-11.25.06:520][805]LogMainFrame: MainFrame: Module compiling took 1.905 seconds
+[2018.04.26-11.25.06:539][805]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 2340 classes and 497 folders.
+[2018.04.26-11.25.06:539][805]Display: HotReload took  1.9s.
+[2018.04.26-11.25.08:035][985]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.26-11.25.08:047][985]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.26-11.25.08:047][985]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.26-11.25.08:047][985]LogPlayLevel: [PlayLevel] Compiling Minimal_Default before play...
+[2018.04.26-11.25.08:054][985]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Warning Could not find a variable named "focus_light" in 'SceneController'.
+Make sure 'SceneController' has been compiled for  Set focus_light
+[2018.04.26-11.25.08:055][985]LogBlueprint:Error: [Compiler PersistentLevel.Minimal_Default] Error The property associated with  Focus Light  could not be found
+[2018.04.26-11.25.08:108][985]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Warning [0025.19] Compile of PersistentLevel.Minimal_Default failed. 1 Fatal Issue(s) 1 Warning(s) [in 55 ms] (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default)
+[2018.04.26-11.25.08:108][985]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Warning [0025.19] Compile of PersistentLevel.Minimal_Default failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default)
+[2018.04.26-11.25.08:108][985]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Warning [0025.19] Compile of PersistentLevel.Minimal_Default failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default)
+[2018.04.26-11.25.08:108][985]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Warning [0025.19] Compile of PersistentLevel.Minimal_Default failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default)
+[2018.04.26-11.25.08:108][985]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Warning [0025.19] Compile of PersistentLevel.Minimal_Default failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default)
+[2018.04.26-11.25.08:108][985]LogBlueprint:Warning: [Compiler PersistentLevel.Minimal_Default] Warning [0025.19] Compile of PersistentLevel.Minimal_Default failed. 1 Fatal Issue(s) 6 Warning(s) [in 0 ms] (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default)
+[2018.04.26-11.25.08:115][985]LogPlayLevel: PlayLevel: Blueprint regeneration took 67 ms (1 blueprints)
+[2018.04.26-11.25.08:115][985]BlueprintLog: Info Blueprint Minimal_Default failed to compile
+[2018.04.26-11.25.13:635][230]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.26-11.25.14:034][276]LogSlate: Took 0.000099 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.26-11.25.14:327][276]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 112 classes and 0 folders.
+[2018.04.26-11.25.14:716][276]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.26-11.25.14:775][277]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.26-11.25.23:502][316]BlueprintLog: New page: Compile Minimal_Default
+[2018.04.26-11.25.24:612][389]LogSavePackage: Save=125.08ms
+[2018.04.26-11.25.24:612][389]LogSavePackage: Moving '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Saved/Minimal_Default0FCCAE5D4502D8C3A1AC748C63F5F3C9.tmp' to '../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.04.26-11.25.24:614][389]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sound/Documents/Unreal Projects/Project16/Content/StarterContent/Maps/Minimal_Default.umap
+[2018.04.26-11.25.24:649][389]LogFileHelpers: Saving map 'Minimal_Default' took 0.438
+[2018.04.26-11.25.28:205][806]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.26-11.25.28:225][806]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.26-11.25.28:225][806]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.26-11.25.28:225][806]PIE: New page: PIE session: Minimal_Default (26 Apr 2018 13:25:28)
+[2018.04.26-11.25.28:225][806]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.04.26-11.25.28:227][806]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001723s)
+[2018.04.26-11.25.28:227][806]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.04.26-11.25.28:227][806]LogPlayLevel: PIE: World Init took: (0.000395s)
+[2018.04.26-11.25.28:227][806]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002249s)
+[2018.04.26-11.25.28:242][806]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.26-11.25.28:250][806]LogInit: FAudioDevice initialized.
+[2018.04.26-11.25.28:292][806]LogLoad: Game class is 'MyGameMode_C'
+[2018.04.26-11.25.28:294][806]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.04.26-12.25.28
+[2018.04.26-11.25.28:294][806]LogWorld: Bringing up level for play took: 0.000835
+[2018.04.26-11.25.28:328][806]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 11 classes and 0 folders.
+[2018.04.26-11.25.28:329][806]Cmd: r.SetRes 1920x1080w
+[2018.04.26-11.25.28:329][806]r.SetRes = "1920x1080w"
+[2018.04.26-11.25.28:329][806]LogBlueprintUserMessages: [Minimal_Default_C_1] Hello
+[2018.04.26-11.25.28:330][806]LogActor:Warning: GrissburgSceneController /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GrissburgSceneController_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.04.26-11.25.28:359][806]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.664
+[2018.04.26-11.25.28:359][806]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.26-11.25.31:127][131]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.26-11.25.31:161][131]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.26-11.25.35:235][618]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube7)
+[2018.04.26-11.25.50:258][407]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2018.04.26-11.28.24:374][787]LogHotReload: New module detected: UE4Editor-Project16-5864.dll
+[2018.04.26-11.28.25:383][791]LogHotReload: Starting Hot-Reload from IDE
+[2018.04.26-11.28.25:524][791]LogContentBrowser: Native class hierarchy updated for 'Project16' in 0.0013 seconds. Added 9 classes and 2 folders.
+[2018.04.26-11.28.25:525][791]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.04.26-11.28.25:746][791]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 2340 classes and 497 folders.
+[2018.04.26-11.28.25:748][791]Display: HotReload took  0.4s.
+[2018.04.26-11.28.29:240][976]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.26-11.28.29:253][976]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.26-11.28.29:253][976]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.26-11.28.29:253][976]PIE: New page: PIE session: Minimal_Default (26 Apr 2018 13:28:29)
+[2018.04.26-11.28.29:253][976]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.04.26-11.28.29:255][976]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001824s)
+[2018.04.26-11.28.29:255][976]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.04.26-11.28.29:255][976]LogPlayLevel: PIE: World Init took: (0.000567s)
+[2018.04.26-11.28.29:255][976]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002544s)
+[2018.04.26-11.28.29:292][976]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.26-11.28.29:301][976]LogInit: FAudioDevice initialized.
+[2018.04.26-11.28.29:332][976]LogLoad: Game class is 'MyGameMode_C'
+[2018.04.26-11.28.29:334][976]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.04.26-12.28.29
+[2018.04.26-11.28.29:334][976]LogWorld: Bringing up level for play took: 0.000880
+[2018.04.26-11.28.29:335][976]Cmd: r.SetRes 1920x1080w
+[2018.04.26-11.28.29:335][976]r.SetRes = "1920x1080w"
+[2018.04.26-11.28.29:335][976]LogBlueprintUserMessages: [Minimal_Default_C_1] Hello
+[2018.04.26-11.28.29:336][976]LogActor:Warning: GrissburgSceneController /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GrissburgSceneController_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.04.26-11.28.29:339][976]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.316
+[2018.04.26-11.28.29:339][976]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.26-11.28.36:676][855]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.26-11.28.36:715][855]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.26-11.29.36:391][ 29]LogHotReload: New module detected: UE4Editor-Project16-5692.dll
+[2018.04.26-11.29.37:066][ 32]LogHotReload: Starting Hot-Reload from IDE
+[2018.04.26-11.29.37:164][ 32]LogContentBrowser: Native class hierarchy updated for 'Project16' in 0.0016 seconds. Added 9 classes and 2 folders.
+[2018.04.26-11.29.37:167][ 32]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.04.26-11.29.37:346][ 32]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2340 classes and 497 folders.
+[2018.04.26-11.29.37:348][ 32]Display: HotReload took  0.3s.
+[2018.04.26-11.45.58:827][145]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.26-11.45.58:840][145]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.26-11.45.58:840][145]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.26-11.45.58:840][145]PIE: New page: PIE session: Minimal_Default (26 Apr 2018 13:45:58)
+[2018.04.26-11.45.58:840][145]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.04.26-11.45.58:842][145]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001918s)
+[2018.04.26-11.45.58:843][145]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.04.26-11.45.58:843][145]LogPlayLevel: PIE: World Init took: (0.000599s)
+[2018.04.26-11.45.58:843][145]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002705s)
+[2018.04.26-11.45.58:880][145]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.26-11.45.58:888][145]LogInit: FAudioDevice initialized.
+[2018.04.26-11.45.58:919][145]LogLoad: Game class is 'MyGameMode_C'
+[2018.04.26-11.45.58:921][145]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.04.26-12.45.58
+[2018.04.26-11.45.58:921][145]LogWorld: Bringing up level for play took: 0.000940
+[2018.04.26-11.45.58:922][145]Cmd: r.SetRes 1920x1080w
+[2018.04.26-11.45.58:922][145]r.SetRes = "1920x1080w"
+[2018.04.26-11.45.58:922][145]LogBlueprintUserMessages: [Minimal_Default_C_1] Hello
+[2018.04.26-11.45.58:922][145]LogActor:Warning: GrissburgSceneController /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GrissburgSceneController_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.04.26-11.45.58:926][145]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.097
+[2018.04.26-11.45.58:926][145]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.26-11.46.53:492][692]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.26-11.46.53:533][692]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.27-05.15.12:968][ 21]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.27-05.15.13:006][ 21]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.27-05.15.13:007][ 21]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.27-05.15.13:008][ 21]PIE: New page: PIE session: Minimal_Default (27 Apr 2018 07:15:13)
+[2018.04.27-05.15.13:010][ 21]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.04.27-05.15.13:031][ 21]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020364s)
+[2018.04.27-05.15.13:034][ 21]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.04.27-05.15.13:036][ 21]LogPlayLevel: PIE: World Init took: (0.004542s)
+[2018.04.27-05.15.13:038][ 21]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.027984s)
+[2018.04.27-05.15.13:115][ 21]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.27-05.15.13:124][ 21]LogInit: FAudioDevice initialized.
+[2018.04.27-05.15.13:156][ 21]LogLoad: Game class is 'MyGameMode_C'
+[2018.04.27-05.15.13:159][ 21]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.04.27-06.15.13
+[2018.04.27-05.15.13:159][ 21]LogWorld: Bringing up level for play took: 0.002061
+[2018.04.27-05.15.13:162][ 21]Cmd: r.SetRes 1920x1080w
+[2018.04.27-05.15.13:163][ 21]r.SetRes = "1920x1080w"
+[2018.04.27-05.15.13:163][ 21]LogBlueprintUserMessages: [Minimal_Default_C_1] Hello
+[2018.04.27-05.15.13:164][ 21]LogActor:Warning: GrissburgSceneController /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GrissburgSceneController_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.04.27-05.15.13:169][ 21]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.147
+[2018.04.27-05.15.13:170][ 21]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.27-05.15.16:849][460]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.27-05.15.16:889][460]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.27-10.10.04:587][558]LogHotReload: New module detected: UE4Editor-Project16-8295.dll
+[2018.04.27-10.10.05:591][562]LogHotReload: Starting Hot-Reload from IDE
+[2018.04.27-10.10.05:805][562]LogClass: Could not find existing class SceneController in package /Script/Project16 for HotReload, assuming new class
+[2018.04.27-10.10.05:805][562]LogClass: Function LeftMousePressed is new.
+[2018.04.27-10.10.05:805][562]LogClass: Could not find existing class GrissburgSceneController in package /Script/Project16 for HotReload, assuming new class
+[2018.04.27-10.10.05:805][562]LogClass: Function SetupLevel is new.
+[2018.04.27-10.10.05:815][562]LogHotReload: Re-instancing SceneController after hot-reload.
+[2018.04.27-10.10.05:893][562]LogHotReload: Re-instancing GrissburgSceneController after hot-reload.
+[2018.04.27-10.10.05:938][562]LogContentBrowser: Native class hierarchy updated for 'Project16' in 0.0017 seconds. Added 9 classes and 2 folders.
+[2018.04.27-10.10.05:940][562]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.27-10.10.06:202][562]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 2340 classes and 497 folders.
+[2018.04.27-10.10.06:204][562]Display: HotReload took  0.6s.
+[2018.04.27-10.10.11:802][765]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.27-10.10.11:818][765]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.27-10.10.11:818][765]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.27-10.10.11:818][765]PIE: New page: PIE session: Minimal_Default (27 Apr 2018 12:10:11)
+[2018.04.27-10.10.11:818][765]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.04.27-10.10.11:820][765]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001893s)
+[2018.04.27-10.10.11:821][765]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.04.27-10.10.11:821][765]LogPlayLevel: PIE: World Init took: (0.000900s)
+[2018.04.27-10.10.11:821][765]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003014s)
+[2018.04.27-10.10.11:873][765]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.27-10.10.11:883][765]LogInit: FAudioDevice initialized.
+[2018.04.27-10.10.11:914][765]LogLoad: Game class is 'MyGameMode_C'
+[2018.04.27-10.10.11:915][765]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.04.27-11.10.11
+[2018.04.27-10.10.11:915][765]LogWorld: Bringing up level for play took: 0.000816
+[2018.04.27-10.10.11:916][765]Cmd: r.SetRes 1920x1080w
+[2018.04.27-10.10.11:916][765]r.SetRes = "1920x1080w"
+[2018.04.27-10.10.11:916][765]LogBlueprintUserMessages: [Minimal_Default_C_1] Hello
+[2018.04.27-10.10.11:917][765]LogActor:Warning: GrissburgSceneController /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GrissburgSceneController_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.04.27-10.10.11:917][765]LogScript:Warning: Attempted to access missing property. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Minimal_Default_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default_C_1
+	Function /Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C:ExecuteUbergraph_Minimal_Default:0424
+[2018.04.27-10.10.11:917][765]PIE:Error: Error Blueprint Runtime Error: Attempted to access missing property. If this is a packaged/cooked build, are you attempting to use an editor-only property? from function: 'ExecuteUbergraph_Minimal_Default' from node: Set sound in graph: EventGraph in object: Minimal_Default with description: Attempted to access missing property. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+[2018.04.27-10.10.11:917][765]LogScript:Warning: Accessed None attempting to assign variable on an object
+	Minimal_Default_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default_C_1
+	Function /Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C:ExecuteUbergraph_Minimal_Default:0424
+[2018.04.27-10.10.11:917][765]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_Minimal_Default' from node: Set sound in graph: EventGraph in object: Minimal_Default with description: Accessed None attempting to assign variable on an object
+[2018.04.27-10.10.11:917][765]LogScript:Warning: Attempted to access missing property. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Minimal_Default_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default_C_1
+	Function /Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C:ExecuteUbergraph_Minimal_Default:044F
+[2018.04.27-10.10.11:917][765]PIE:Error: Error Blueprint Runtime Error: Attempted to access missing property. If this is a packaged/cooked build, are you attempting to use an editor-only property? from function: 'ExecuteUbergraph_Minimal_Default' from node: Set wDougUIBlueprint in graph: EventGraph in object: Minimal_Default with description: Attempted to access missing property. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+[2018.04.27-10.10.11:917][765]LogScript:Warning: Accessed None attempting to assign variable on an object
+	Minimal_Default_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default_C_1
+	Function /Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C:ExecuteUbergraph_Minimal_Default:044F
+[2018.04.27-10.10.11:917][765]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_Minimal_Default' from node: Set wDougUIBlueprint in graph: EventGraph in object: Minimal_Default with description: Accessed None attempting to assign variable on an object
